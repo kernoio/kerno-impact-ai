@@ -61,11 +61,12 @@ data/headline.csv              before/after rows the audit asserted or withheld
 data/metrics.csv               per-metric rollup
 data/trends.csv                fitted monthly slopes
 data/monthly.json              monthly numerators/denominators by attribution arm
-extract/complexity_monthly.csv recomputed monthly decision-points / 100 lines
-extract/complexity_before_after.csv  30-repo before/after + confound flags
-extract/window_feasibility.json      4-year trend notes
-scripts/                       harness scripts that built the CSVs
-REPORT.md                      generated round summary (local paths stripped)
+data/4y/                       4-year re-run aggregates (2022-10 to 2026-10)
+extract/complexity_monthly.csv original-round monthly decision-points / 100 lines
+extract/complexity_before_after.csv  original 30-repo before/after + confound flags
+extract/window_feasibility.json      original-round coverage vs completed 4y walk
+scripts/                       harness scripts that built the original CSVs
+REPORT.md                      generated original-round summary (local paths stripped)
 ```
 
 ## Headline numbers, recomputed from the artefacts
@@ -76,26 +77,49 @@ Median of the 30 dated repositories, metric
 | | Before | After | Relative |
 | --- | ---: | ---: | ---: |
 | Paper | 5.2 | 8.1 | +51.5% |
-| Recomputed | 5.155 | 8.096 | +51.4% |
+| Original artefacts | 5.155 | 8.096 | +51.4% |
+| 4-year re-run, last 12 months before vs after | 5.155 | 8.176 | +51.3% |
+| 4-year re-run, full in-window before vs after | 4.065 | 8.176 | +76.4% |
 
-Rose in 27 of 30; fell in 3 (paper appendix says 27 / 2 — `strapi` is −0.1%
-and is the likely rounding difference).
+The paper's short-window association reproduces. The original artefacts
+rose in 27 of 30; the 4-year 12-month split rose in 28 of 30 (plane and
+infisical fell). Relative is the median of per-repo relatives.
 
-**12 of those 30 before/after rows are marked `confounded` by audit-core
-itself**: the pre-adoption slope already predicted most or all of the rise.
-The paper's body (p.12) agrees the fair summary is "this is what codebases
-did", not "this is what AI did to them".
+**12 of those 30 original before/after rows are marked `confounded` by
+audit-core itself**: the pre-adoption slope already predicted most or all
+of the rise. The paper's body (p.12) agrees the fair summary is "this is
+what codebases did", not "this is what AI did to them".
 
-## Four-year trends
+## Four-year re-run (completed 2026-10-28)
 
-Existing stored series are **not** a 4-year panel. Median coverage is 22
-months. A handful of artefacts contain sparse pre-2024 points (`zulip`,
-`Ghost`, `wagtail`); they are not complete monthly histories.
+Same 46 public repos, calendar window **2022-10-01 → 2026-10-27**,
+complexity + timeline only, adoption months pinned, no judge, no upload.
+46/46 finished. Aggregates: [`data/4y/`](data/4y/).
 
-A 4-year chart is possible only by **re-running** `kerno audit` (or a
-complexity-only walk) on the same public clones with `since ≈ 2022-10`. The
-published CLI exposes `--baseline 3|6|12|24` and `--adoption`, not `--since`.
-See `extract/window_feasibility.json`.
+**The original paper numbers reproduce** on a 12-month pre-adoption arm
+(5.16 → 8.18, +51.3%).
+
+**The 4-year calendar series is flat-then-kink**, not a four-year climb:
+
+| Calendar window | Slope of the monthly-median series |
+| --- | ---: |
+| 2022-10 to 2023-12 | −0.92%/mo |
+| 2022-10 to 2024-09 | −0.26%/mo |
+| 2024-10 to 2026-10 (paper dates) | +2.99%/mo |
+| 2025-01 to 2026-10 | +3.50%/mo |
+
+October 2022 median 5.70 (n=29). Typical 2023 / 2024 month ≈ 4.7–5.0.
+October 2026 median **10.31** (n=36).
+
+**The 2025–2026 rise is broad-based.** Dropping any one repo moves the
+October 2026 median by at most 0.03. 36 of 39 repos with enough months
+rose from 2023–2024 to 2026. Dropping the three largest calendar risers
+(vendure, strapi, directus) only trims October 2026 from 10.31 to 9.73.
+See `data/4y/leave_one_out.csv` and `data/4y/calendar_rise_ranks.csv`.
+
+A longer before-arm cannot turn this into a causal claim about AI. It
+does show that the paper's 5.2 → 8.1 sits on the late side of a 2025–2026
+kink, not on a slope that was already compounding in 2022–2024.
 
 ## License
 

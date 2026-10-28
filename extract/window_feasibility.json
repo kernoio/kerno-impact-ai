@@ -1,38 +1,29 @@
 {
-  "existing_measured_window": {
+  "original_paper_round": {
     "paper": "2024-10 to 2026-10",
     "typical_dated_repo": "12 months before that repo's adoption month through 2026-10",
     "earliest_complete_panel_month": "2024-06",
-    "longest_existing_series_months": 42,
     "median_series_months": 22,
-    "global_unique_months_in_complexity_json": 49,
-    "global_min_month": "2021-09",
-    "global_max_month": "2026-10",
-    "repos_with_any_pre_2024_points": [
-      "zulip",
-      "Ghost",
-      "wagtail"
-    ],
-    "note": "Pre-2024 points are sparse leftovers in three artefacts, not a complete 4-year panel. Most dated repos start at adoption-minus-12-months."
+    "note": "The original stored artefacts are not a 4-year panel. Most dated repos start at adoption-minus-12-months."
   },
   "four_year_rerun": {
-    "possible": true,
-    "requires": [
-      "Re-clone the 46 public repos (clones were not kept with this package; ~52 GB)",
-      "Walk since=2022-10-01 until=2026-10-18",
-      "Pass each repo's already-dated adoption month with --adoption YYYY-MM",
-      "A --since flag or AuditConfig.since override \u2014 published CLI exposes --baseline 3|6|12|24 and --adoption, not --since"
-    ],
-    "estimated_cost": {
-      "prior_round_cpu_hours": "12h46m summed audit time at ~24-month windows, 3-way parallel, 150m timeout",
-      "prior_round_judge_usd": 1.26,
-      "four_year_multiplier_doc": "audit-core docs/date-independent-ledger.md estimates ~2.32x time for a full-history vs 12-month-baseline walk",
-      "four_year_ballpark": "roughly 25-30 CPU-hours and a few dollars of judge spend if the same plugins run"
-    },
+    "status": "completed",
+    "finished_at": "2026-10-28T01:20:45Z",
+    "window": { "since": "2022-10-01", "until": "2026-10-27" },
+    "repos_ok": 46,
+    "repos_failed": 0,
+    "plugins": ["timeline", "complexity"],
+    "judge": false,
+    "upload": false,
+    "adoption": "pinned from original repositories.csv",
+    "aggregates": "data/4y/",
+    "calendar_reading": "flat-to-down 2022-10..2024-09 (−0.26%/mo), then +2.99%/mo 2024-10..2026-10; October 2026 median 10.31 (n=36)",
+    "paper_comparable_still_holds": "5.16 → 8.18, median relative +51.3%, 28 rose / 2 fell",
+    "leave_one_out": "max single-repo move of the October 2026 median is 0.03; 36 of 39 repos rose 2023-24 to 2026",
     "limitations": [
       "Adoption dating still uses AI-marked commits (a floor). Unmarked AI use remains unknown.",
       "Parser gaps (Vue/Handlebars/ERB) persist.",
-      "A 4-year chart still cannot identify AI as the cause \u2014 it can only show whether the 2024-2026 rise continues a longer pre-AI slope."
+      "A 4-year chart still cannot identify AI as the cause — it shows the 2024-2026 rise is not a continuation of a 2022-2024 climb."
     ]
   }
 }

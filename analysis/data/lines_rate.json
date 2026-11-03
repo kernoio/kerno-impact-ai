@@ -1,0 +1,94 @@
+{
+ "lines": {
+  "whole_window_trend_group": {
+   "n": 39,
+   "median": 5.18,
+   "ci": [
+    2.29,
+    7.27
+   ],
+   "rose": 31,
+   "fell": 8,
+   "p": 0.0
+  },
+  "before": {
+   "n": 26,
+   "median": 0.53,
+   "ci": [
+    -1.64,
+    3.13
+   ],
+   "rose": 13,
+   "fell": 13,
+   "p": 1.0
+  },
+  "after": {
+   "n": 26,
+   "median": 5.49,
+   "ci": [
+    2.61,
+    9.97
+   ],
+   "rose": 20,
+   "fell": 6,
+   "p": 0.009
+  },
+  "after_minus_before": {
+   "n": 26,
+   "median": 3.82,
+   "ci": [
+    0.41,
+    8.0
+   ],
+   "rose": 18,
+   "fell": 8,
+   "p": 0.076
+  }
+ },
+ "per_author": {
+  "whole_window_trend_group": {
+   "n": 39,
+   "median": 3.41,
+   "ci": [
+    1.77,
+    5.24
+   ],
+   "rose": 28,
+   "fell": 11,
+   "p": 0.009
+  },
+  "before": {
+   "n": 26,
+   "median": 0.63,
+   "ci": [
+    -2.32,
+    2.23
+   ],
+   "rose": 15,
+   "fell": 11,
+   "p": 0.557
+  },
+  "after": {
+   "n": 26,
+   "median": 5.0,
+   "ci": [
+    2.69,
+    8.08
+   ],
+   "rose": 19,
+   "fell": 7,
+   "p": 0.029
+  },
+  "after_minus_before": {
+   "n": 26,
+   "median": 5.25,
+   "ci": [
+    -1.2,
+    9.89
+   ],
+   "rose": 17,
+   "fell": 9,
+   "p": 0.169
+  }
+ }
+}

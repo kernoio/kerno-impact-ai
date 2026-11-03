@@ -1,0 +1,331 @@
+repo,metric,before,after,change_pct,ci_low_pct,ci_high_pct,n_before,n_after,p,p_raw,status,reason
+redash,rework edits (per 100 lines added),0.0116,0.0152,31.0,,,65,41,,—,excluded,confounded by a pre-existing trend
+redash,lines rewritten within 30 days,0.003,0.0177,490.0,,,1333,1130,,—,withheld,no interval
+redash,lines rewritten within 90 days,0.0038,0.0212,458.0,,,1333,1130,,—,withheld,no interval
+redash,cyclomatic delta (per 100 production lines added),5.94,7.1,20.0,,,64,40,,—,asserted,
+redash,cyclomatic delta per commit,1.0,2.0,100.0,,,65,41,0.3425,0.3425,excluded,confounded by a pre-existing trend
+redash,production lines added per commit,10.0,15.5,55.0,,,64,40,0.3766,0.3766,excluded,p above 0.05
+redash,excess complexity per KLOC,3.13,3.2,2.0,,,16,12,0.0005,0.0005,excluded,effect under 5%
+redash,follow-ups (per change),0.0154,0.122,693.0,,,65,41,,—,asserted,
+redash,days to first follow-up,1.9,2.2,16.0,,,1,2,,—,excluded,an arm under 20
+redash,share of follow-ups that are repairs,0.0,0.0,,,,1,5,,—,excluded,no ratio and no significant test
+redash,reimplementations (per KLOC added),0.211,0.121,-43.0,,,65,41,,—,asserted,
+hoppscotch,rework edits (per 100 lines added),0.104,0.0534,-49.0,,,265,221,,—,excluded,confounded by a pre-existing trend
+hoppscotch,lines rewritten within 30 days,0.103,0.0259,-75.0,-86.0,-55.0,12609,13148,,—,asserted,
+hoppscotch,lines rewritten within 90 days,0.139,0.0493,-64.0,-77.0,-44.0,12609,13148,,—,asserted,
+hoppscotch,cyclomatic delta (per 100 production lines added),8.23,11.1,35.0,,,260,218,,—,asserted,
+hoppscotch,cyclomatic delta per commit,1.0,2.0,100.0,,,265,221,0.0635,0.0635,excluded,p above 0.05
+hoppscotch,production lines added per commit,31.5,35.5,13.0,,,260,218,0.1501,0.1501,excluded,p above 0.05
+hoppscotch,excess complexity per KLOC,5.41,7.97,47.0,,,14,12,0.0001,<0.0001,excluded,an arm under 20
+hoppscotch,follow-ups (per change),0.638,0.588,-8.0,,,265,221,,—,excluded,confounded by a pre-existing trend
+hoppscotch,days to first follow-up,18.1,27.0,49.0,,,56,47,0.5142,0.5142,excluded,p above 0.05
+hoppscotch,share of follow-ups that are repairs,0.3,0.26,-13.0,,,60,50,,—,asserted,
+hoppscotch,reimplementations (per KLOC added),0.239,0.173,-28.0,,,265,220,,—,asserted,
+rallly,rework edits (per 100 lines added),0.614,0.603,-2.0,,,585,1087,,—,excluded,effect under 5%
+rallly,lines rewritten within 30 days,0.2,0.202,1.0,-21.0,31.0,22361,38893,,—,excluded,effect under 5%
+rallly,lines rewritten within 90 days,0.303,0.264,-13.0,-27.0,4.0,22361,38893,,—,withheld,CI includes 0
+rallly,cyclomatic delta (per 100 production lines added),2.37,4.38,85.0,,,558,1052,,—,asserted,
+rallly,cyclomatic delta per commit,0.0,0.0,,,,585,1087,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+rallly,production lines added per commit,13.5,33.0,144.0,,,558,1052,0.0001,<0.0001,asserted,
+rallly,excess complexity per KLOC,0.726,4.91,576.0,,,10,16,0.0001,<0.0001,excluded,an arm under 20
+rallly,follow-ups (per change),1.16,1.23,6.0,,,585,1087,,—,asserted,
+rallly,days to first follow-up,4.7,3.9,-17.0,,,186,427,0.0512,0.0512,excluded,confounded by a pre-existing trend
+rallly,share of follow-ups that are repairs,0.0909,0.0541,-41.0,,,33,74,,—,excluded,under 5 events
+rallly,reimplementations (per KLOC added),0.248,0.282,14.0,,,582,1085,,—,asserted,
+django-cms,rework edits (per 100 lines added),0.158,0.0109,-93.0,,,101,185,,—,excluded,confounded by a pre-existing trend
+django-cms,lines rewritten within 30 days,0.0377,0.0193,-49.0,-79.0,21.0,3711,6207,,—,withheld,CI includes 0
+django-cms,lines rewritten within 90 days,0.0838,0.0425,-49.0,-77.0,1.0,3711,6207,,—,withheld,CI includes 0
+django-cms,cyclomatic delta (per 100 production lines added),2.16,4.37,103.0,,,99,180,,—,asserted,
+django-cms,cyclomatic delta per commit,0.0,1.0,,,,101,185,0.0099,0.0099,excluded,confounded by a pre-existing trend
+django-cms,production lines added per commit,16.0,20.0,25.0,,,99,180,0.9043,0.9043,excluded,p above 0.05
+django-cms,excess complexity per KLOC,8.69,10.0,15.0,,,9,17,0.0003,0.0003,excluded,an arm under 20
+django-cms,follow-ups (per change),0.238,0.0919,-61.0,,,101,185,,—,excluded,confounded by a pre-existing trend
+django-cms,days to first follow-up,20.8,14.2,-32.0,,,13,9,0.4425,0.4425,excluded,confounded by a pre-existing trend
+django-cms,share of follow-ups that are repairs,0.476,0.235,-51.0,,,21,17,,—,excluded,an arm under 20
+django-cms,reimplementations (per KLOC added),0.113,0.0478,-58.0,,,97,175,,—,excluded,arms too unbalanced
+keep,rework edits (per 100 lines added),0.407,0.0489,-88.0,,,1340,231,,—,excluded,confounded by a pre-existing trend
+keep,lines rewritten within 30 days,0.165,0.0119,-93.0,-97.0,-88.0,37594,7459,,—,asserted,
+keep,lines rewritten within 90 days,0.257,0.0224,-91.0,-96.0,-86.0,37594,7459,,—,asserted,
+keep,cyclomatic delta (per 100 production lines added),6.49,11.2,73.0,,,1326,231,,—,excluded,arms too unbalanced
+keep,cyclomatic delta per commit,1.0,2.0,100.0,,,1340,231,0.7175,0.7175,excluded,confounded by a pre-existing trend
+keep,production lines added per commit,24.0,15.0,-38.0,,,1326,231,0.0001,<0.0001,asserted,
+keep,excess complexity per KLOC,6.51,9.94,53.0,,,21,5,0.0006,0.0006,excluded,an arm under 20
+keep,follow-ups (per change),1.2,0.0693,-94.0,,,1340,231,,—,excluded,confounded by a pre-existing trend
+keep,days to first follow-up,9.1,9.7,7.0,,,463,13,0.4426,0.4426,excluded,an arm under 20
+keep,share of follow-ups that are repairs,0.248,0.0,-100.0,,,117,1,,—,excluded,an arm under 20
+keep,reimplementations (per KLOC added),0.296,0.673,127.0,,,1326,229,,—,excluded,arms too unbalanced
+vendure,rework edits (per 100 lines added),0.00907,0.0518,472.0,,,530,127,,—,excluded,confounded by a pre-existing trend
+vendure,lines rewritten within 30 days,0.0426,0.0447,5.0,-60.0,129.0,23753,8896,,—,excluded,effect under 5%
+vendure,lines rewritten within 90 days,0.073,0.0821,12.0,-47.0,96.0,23953,8896,,—,withheld,CI includes 0
+vendure,cyclomatic delta (per 100 production lines added),7.61,11.7,54.0,,,519,126,,—,excluded,confounded by a pre-existing trend
+vendure,cyclomatic delta per commit,1.0,10.0,900.0,,,530,127,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+vendure,production lines added per commit,27.0,74.0,174.0,,,519,126,0.0001,<0.0001,asserted,
+vendure,excess complexity per KLOC,4.19,4.81,15.0,,,19,7,0.0001,0.0001,excluded,an arm under 20
+vendure,follow-ups (per change),0.236,0.661,180.0,,,530,127,,—,asserted,
+vendure,days to first follow-up,22.0,5.2,-76.0,,,61,24,0.0031,0.0031,excluded,confounded by a pre-existing trend
+vendure,share of follow-ups that are repairs,0.206,0.218,6.0,,,63,55,,—,asserted,
+vendure,reimplementations (per KLOC added),0.0202,0.0611,203.0,,,499,124,,—,excluded,arms too unbalanced
+plane,rework edits (per 100 lines added),0.146,0.012,-92.0,,,1100,245,,—,excluded,confounded by a pre-existing trend
+plane,lines rewritten within 30 days,0.0965,0.0987,2.0,-47.0,63.0,35010,9911,,—,excluded,effect under 5%
+plane,lines rewritten within 90 days,0.182,0.115,-37.0,-62.0,-5.0,35010,9911,,—,asserted,
+plane,cyclomatic delta (per 100 production lines added),2.79,2.24,-20.0,,,1077,242,,—,excluded,arms too unbalanced
+plane,cyclomatic delta per commit,0.0,0.0,,,,1100,245,0.6162,0.6162,excluded,no ratio and no significant test
+plane,production lines added per commit,25.0,28.0,12.0,,,1077,242,0.9998,0.9998,excluded,p above 0.05
+plane,excess complexity per KLOC,6.8,5.27,-23.0,,,20,6,0.1003,0.1003,excluded,an arm under 20
+plane,follow-ups (per change),1.07,0.216,-80.0,,,1100,245,,—,excluded,confounded by a pre-existing trend
+plane,days to first follow-up,13.8,17.1,24.0,,,295,22,0.4143,0.4143,excluded,p above 0.05
+plane,share of follow-ups that are repairs,0.144,0.0,-100.0,,,104,9,,—,excluded,an arm under 20
+plane,reimplementations (per KLOC added),0.114,0.043,-62.0,,,1100,243,,—,asserted,
+payload,rework edits (per 100 lines added),0.0754,0.108,44.0,,,1350,587,,—,excluded,confounded by a pre-existing trend
+payload,lines rewritten within 30 days,0.0746,0.0626,-16.0,-47.0,34.0,21550,34318,,—,withheld,CI includes 0
+payload,lines rewritten within 90 days,0.126,0.0916,-28.0,-49.0,1.0,21550,34318,,—,withheld,CI includes 0
+payload,cyclomatic delta (per 100 production lines added),5.46,8.54,56.0,,,1332,576,,—,asserted,
+payload,cyclomatic delta per commit,1.0,1.0,0.0,,,1350,587,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+payload,production lines added per commit,20.0,37.0,85.0,,,1332,576,0.0001,<0.0001,asserted,
+payload,excess complexity per KLOC,18.9,21.3,13.0,,,18,8,0.0005,0.0005,excluded,an arm under 20
+payload,follow-ups (per change),0.454,0.746,64.0,,,1350,587,,—,excluded,confounded by a pre-existing trend
+payload,days to first follow-up,17.6,6.9,-61.0,,,206,114,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+payload,share of follow-ups that are repairs,0.333,0.217,-35.0,,,42,69,,—,asserted,
+payload,reimplementations (per KLOC added),0.044,0.0782,78.0,,,1337,583,,—,asserted,
+unleash,rework edits (per 100 lines added),0.521,0.478,-8.0,,,1319,766,,—,excluded,confounded by a pre-existing trend
+unleash,lines rewritten within 30 days,0.241,0.141,-42.0,-53.0,-28.0,28950,32971,,—,asserted,
+unleash,lines rewritten within 90 days,0.333,0.177,-47.0,-56.0,-36.0,28950,32971,,—,asserted,
+unleash,cyclomatic delta (per 100 production lines added),3.62,5.39,49.0,,,1280,750,,—,asserted,
+unleash,cyclomatic delta per commit,1.0,1.0,0.0,,,1319,766,0.0015,0.0015,excluded,confounded by a pre-existing trend
+unleash,production lines added per commit,19.0,32.0,68.0,,,1280,750,0.0003,0.0003,asserted,
+unleash,excess complexity per KLOC,1.42,1.8,27.0,,,15,11,0.0004,0.0004,excluded,an arm under 20
+unleash,follow-ups (per change),0.785,0.748,-5.0,,,1319,766,,—,excluded,effect under 5%
+unleash,days to first follow-up,4.0,3.8,-5.0,,,389,221,0.688,0.6880,excluded,p above 0.05
+unleash,share of follow-ups that are repairs,0.0154,0.111,622.0,,,65,45,,—,asserted,
+unleash,reimplementations (per KLOC added),0.593,0.326,-45.0,,,1295,762,,—,asserted,
+prefect,rework edits (per 100 lines added),0.164,0.138,-16.0,,,1138,1447,,—,excluded,confounded by a pre-existing trend
+prefect,lines rewritten within 30 days,0.131,0.0905,-31.0,-54.0,-3.0,36553,35078,,—,asserted,
+prefect,lines rewritten within 90 days,0.167,0.125,-25.0,-44.0,-1.0,36553,35078,,—,asserted,
+prefect,cyclomatic delta (per 100 production lines added),4.16,7.6,83.0,,,1113,1431,,—,excluded,confounded by a pre-existing trend
+prefect,cyclomatic delta per commit,2.0,3.0,50.0,,,1138,1447,0.0344,0.0344,excluded,confounded by a pre-existing trend
+prefect,production lines added per commit,42.0,35.0,-17.0,,,1113,1431,0.2074,0.2074,excluded,p above 0.05
+prefect,excess complexity per KLOC,4.83,6.48,34.0,,,10,15,0.0001,<0.0001,excluded,an arm under 20
+prefect,follow-ups (per change),0.847,0.413,-51.0,,,1138,1447,,—,excluded,confounded by a pre-existing trend
+prefect,days to first follow-up,5.55,6.0,8.0,,,316,281,0.6989,0.6989,excluded,p above 0.05
+prefect,share of follow-ups that are repairs,0.267,0.125,-53.0,,,75,40,,—,asserted,
+prefect,reimplementations (per KLOC added),0.355,0.714,101.0,,,1114,1426,,—,asserted,
+outline,rework edits (per 100 lines added),0.365,0.216,-41.0,,,993,1646,,—,excluded,confounded by a pre-existing trend
+outline,lines rewritten within 30 days,0.0816,0.0578,-29.0,-51.0,1.0,24998,25494,,—,withheld,CI includes 0
+outline,lines rewritten within 90 days,0.132,0.102,-22.0,-42.0,3.0,24998,25494,,—,withheld,CI includes 0
+outline,cyclomatic delta (per 100 production lines added),5.93,7.63,29.0,,,981,1630,,—,asserted,
+outline,cyclomatic delta per commit,1.0,2.0,100.0,,,993,1646,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+outline,production lines added per commit,15.0,24.5,63.0,,,981,1630,0.0001,<0.0001,asserted,
+outline,excess complexity per KLOC,6.96,7.65,10.0,,,10,16,0.0001,<0.0001,excluded,an arm under 20
+outline,follow-ups (per change),0.341,0.357,4.0,,,993,1646,,—,excluded,confounded by a pre-existing trend
+outline,days to first follow-up,15.7,22.1,40.0,,,179,310,0.1397,0.1397,excluded,confounded by a pre-existing trend
+outline,share of follow-ups that are repairs,0.289,0.236,-18.0,,,38,72,,—,asserted,
+outline,reimplementations (per KLOC added),0.105,0.0907,-13.0,,,992,1646,,—,asserted,
+flagsmith,rework edits (per 100 lines added),0.195,0.208,6.0,,,441,742,,—,excluded,confounded by a pre-existing trend
+flagsmith,lines rewritten within 30 days,0.0835,0.0919,10.0,-23.0,59.0,21696,40051,,—,withheld,CI includes 0
+flagsmith,lines rewritten within 90 days,0.135,0.13,-3.0,-28.0,28.0,21696,40051,,—,excluded,effect under 5%
+flagsmith,cyclomatic delta (per 100 production lines added),3.73,6.23,67.0,,,430,726,,—,excluded,confounded by a pre-existing trend
+flagsmith,cyclomatic delta per commit,1.0,1.0,0.0,,,441,742,0.0003,0.0003,excluded,confounded by a pre-existing trend
+flagsmith,production lines added per commit,18.0,39.0,117.0,,,430,726,0.0001,<0.0001,asserted,
+flagsmith,excess complexity per KLOC,8.46,6.42,-24.0,,,9,17,0.0001,<0.0001,excluded,an arm under 20
+flagsmith,follow-ups (per change),0.608,0.993,63.0,,,441,742,,—,excluded,confounded by a pre-existing trend
+flagsmith,days to first follow-up,13.9,9.0,-35.0,,,96,247,0.1378,0.1378,excluded,p above 0.05
+flagsmith,share of follow-ups that are repairs,0.0,0.253,,,,19,95,,—,excluded,no ratio and no significant test
+flagsmith,reimplementations (per KLOC added),0.144,0.0902,-37.0,,,423,724,,—,asserted,
+typebot.io,rework edits (per 100 lines added),0.284,0.0315,-89.0,,,600,123,,—,excluded,confounded by a pre-existing trend
+typebot.io,lines rewritten within 30 days,0.102,0.0435,-58.0,-79.0,-26.0,25276,7086,,—,asserted,
+typebot.io,lines rewritten within 90 days,0.171,0.0663,-61.0,-81.0,-36.0,25276,7086,,—,asserted,
+typebot.io,cyclomatic delta (per 100 production lines added),1.77,8.99,408.0,,,585,122,,—,excluded,arms too unbalanced
+typebot.io,cyclomatic delta per commit,0.0,4.0,,,,600,123,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+typebot.io,production lines added per commit,16.0,38.5,141.0,,,585,122,0.0001,<0.0001,asserted,
+typebot.io,excess complexity per KLOC,10.4,10.6,2.0,,,21,5,0.055,0.0550,excluded,effect under 5%
+typebot.io,follow-ups (per change),0.785,0.39,-50.0,,,600,123,,—,excluded,confounded by a pre-existing trend
+typebot.io,days to first follow-up,4.9,17.8,263.0,,,123,28,0.1685,0.1685,excluded,p above 0.05
+typebot.io,share of follow-ups that are repairs,0.24,0.6,150.0,,,96,15,,—,excluded,an arm under 20
+typebot.io,reimplementations (per KLOC added),0.12,0.0331,-72.0,,,590,121,,—,asserted,
+directus,rework edits (per 100 lines added),0.0529,0.032,-40.0,,,311,386,,—,excluded,confounded by a pre-existing trend
+directus,lines rewritten within 30 days,0.0364,0.0446,23.0,-58.0,237.0,9238,15586,,—,withheld,CI includes 0
+directus,lines rewritten within 90 days,0.0626,0.073,17.0,-42.0,120.0,9238,15586,,—,withheld,CI includes 0
+directus,cyclomatic delta (per 100 production lines added),6.88,13.2,92.0,,,304,381,,—,asserted,
+directus,cyclomatic delta per commit,1.0,2.0,100.0,,,311,386,0.0041,0.0041,excluded,confounded by a pre-existing trend
+directus,production lines added per commit,16.0,23.0,44.0,,,304,381,0.0063,0.0063,asserted,
+directus,excess complexity per KLOC,16.0,17.3,8.0,,,12,14,0.0001,<0.0001,excluded,an arm under 20
+directus,follow-ups (per change),0.19,0.306,61.0,,,311,386,,—,excluded,confounded by a pre-existing trend
+directus,days to first follow-up,27.1,15.1,-44.0,,,32,40,0.085,0.0850,excluded,confounded by a pre-existing trend
+directus,share of follow-ups that are repairs,0.522,0.161,-69.0,,,23,93,,—,asserted,
+directus,reimplementations (per KLOC added),0.0853,0.0323,-62.0,,,307,384,,—,asserted,
+nango,rework edits (per 100 lines added),0.237,0.347,46.0,,,1197,1162,,—,excluded,confounded by a pre-existing trend
+nango,lines rewritten within 30 days,0.128,0.136,6.0,-18.0,38.0,25922,37546,,—,withheld,CI includes 0
+nango,lines rewritten within 90 days,0.197,0.197,-0.0,-17.0,21.0,25922,37546,,—,excluded,effect under 5%
+nango,cyclomatic delta (per 100 production lines added),6.91,9.77,41.0,,,1178,1154,,—,asserted,
+nango,cyclomatic delta per commit,1.0,4.0,300.0,,,1197,1162,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+nango,production lines added per commit,19.5,52.0,167.0,,,1178,1154,0.0001,<0.0001,asserted,
+nango,excess complexity per KLOC,21.5,20.7,-4.0,,,12,14,0.0024,0.0024,excluded,effect under 5%
+nango,follow-ups (per change),0.62,1.37,121.0,,,1197,1162,,—,asserted,
+nango,days to first follow-up,8.85,7.0,-21.0,,,304,441,0.0208,0.0208,excluded,confounded by a pre-existing trend
+nango,share of follow-ups that are repairs,0.0938,0.0602,-36.0,,,32,83,,—,asserted,
+nango,reimplementations (per KLOC added),0.252,0.24,-5.0,,,1166,1135,,—,excluded,effect under 5%
+formbricks,rework edits (per 100 lines added),0.142,0.149,5.0,,,744,982,,—,excluded,effect under 5%
+formbricks,lines rewritten within 30 days,0.1,0.0839,-16.0,-41.0,18.0,34977,36881,,—,withheld,CI includes 0
+formbricks,lines rewritten within 90 days,0.195,0.146,-25.0,-40.0,-6.0,34977,36881,,—,asserted,
+formbricks,cyclomatic delta (per 100 production lines added),3.97,9.46,138.0,,,719,975,,—,asserted,
+formbricks,cyclomatic delta per commit,0.0,3.0,,,,744,982,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+formbricks,production lines added per commit,23.0,57.0,148.0,,,719,975,0.0001,<0.0001,asserted,
+formbricks,excess complexity per KLOC,9.18,9.26,1.0,,,11,15,0.8968,0.8968,excluded,effect under 5%
+formbricks,follow-ups (per change),1.15,1.32,15.0,,,744,982,,—,asserted,
+formbricks,days to first follow-up,16.0,15.9,-1.0,,,220,329,0.9307,0.9307,excluded,confounded by a pre-existing trend
+formbricks,share of follow-ups that are repairs,0.243,0.189,-22.0,,,37,74,,—,asserted,
+formbricks,reimplementations (per KLOC added),0.108,0.0565,-48.0,,,737,975,,—,asserted,
+actual,rework edits (per 100 lines added),0.264,0.204,-23.0,,,865,938,,—,excluded,confounded by a pre-existing trend
+actual,lines rewritten within 30 days,0.0799,0.0524,-34.0,-55.0,-4.0,31767,30449,,—,asserted,
+actual,lines rewritten within 90 days,0.144,0.0967,-33.0,-49.0,-12.0,31767,30449,,—,asserted,
+actual,cyclomatic delta (per 100 production lines added),4.8,8.27,72.0,,,846,920,,—,asserted,
+actual,cyclomatic delta per commit,0.0,1.0,,,,865,938,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+actual,production lines added per commit,20.0,28.0,40.0,,,846,920,0.0043,0.0043,asserted,
+actual,excess complexity per KLOC,8.14,10.7,31.0,,,11,15,0.0001,<0.0001,excluded,an arm under 20
+actual,follow-ups (per change),0.716,0.544,-24.0,,,865,938,,—,excluded,confounded by a pre-existing trend
+actual,days to first follow-up,20.3,21.1,4.0,,,238,199,0.4399,0.4399,excluded,confounded by a pre-existing trend
+actual,share of follow-ups that are repairs,0.12,0.0909,-24.0,,,50,66,,—,asserted,
+actual,reimplementations (per KLOC added),0.204,0.202,-1.0,,,831,903,,—,excluded,effect under 5%
+novu,rework edits (per 100 lines added),0.558,0.325,-42.0,,,1922,2335,,—,excluded,confounded by a pre-existing trend
+novu,lines rewritten within 30 days,0.264,0.173,-34.0,-48.0,-20.0,37500,47070,,—,asserted,
+novu,lines rewritten within 90 days,0.348,0.237,-32.0,-43.0,-20.0,37500,47070,,—,asserted,
+novu,cyclomatic delta (per 100 production lines added),4.33,7.92,83.0,,,1864,2275,,—,asserted,
+novu,cyclomatic delta per commit,0.0,3.0,,,,1922,2335,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+novu,production lines added per commit,26.0,52.0,100.0,,,1864,2275,0.0001,<0.0001,asserted,
+novu,excess complexity per KLOC,4.67,7.59,63.0,,,11,15,0.0001,<0.0001,excluded,an arm under 20
+novu,follow-ups (per change),2.02,2.14,6.0,,,1922,2335,,—,asserted,
+novu,days to first follow-up,4.7,4.1,-13.0,,,841,863,0.3664,0.3664,excluded,confounded by a pre-existing trend
+novu,share of follow-ups that are repairs,0.167,0.25,50.0,,,48,56,,—,asserted,
+novu,reimplementations (per KLOC added),0.217,0.232,7.0,,,1916,2320,,—,asserted,
+strapi,rework edits (per 100 lines added),0.0536,0.0574,7.0,,,330,549,,—,asserted,
+strapi,lines rewritten within 30 days,0.049,0.0447,-9.0,-45.0,51.0,20263,29264,,—,withheld,CI includes 0
+strapi,lines rewritten within 90 days,0.0737,0.0819,11.0,-22.0,63.0,20263,29264,,—,withheld,CI includes 0
+strapi,cyclomatic delta (per 100 production lines added),10.1,10.1,-0.0,,,325,537,,—,excluded,confounded by a pre-existing trend
+strapi,cyclomatic delta per commit,3.0,2.0,-33.0,,,330,549,0.0762,0.0762,excluded,confounded by a pre-existing trend
+strapi,production lines added per commit,33.0,33.0,0.0,,,325,537,0.8283,0.8283,excluded,effect under 5%
+strapi,excess complexity per KLOC,5.86,7.43,27.0,,,9,17,0.0001,<0.0001,excluded,an arm under 20
+strapi,follow-ups (per change),0.37,0.475,29.0,,,330,549,,—,excluded,confounded by a pre-existing trend
+strapi,days to first follow-up,9.55,10.4,9.0,,,48,106,0.7818,0.7818,excluded,confounded by a pre-existing trend
+strapi,share of follow-ups that are repairs,0.333,0.31,-7.0,,,30,84,,—,asserted,
+strapi,reimplementations (per KLOC added),0.121,0.0581,-52.0,,,330,546,,—,asserted,
+zulip,rework edits (per 100 lines added),0.166,0.0687,-59.0,,,3838,1923,,—,excluded,confounded by a pre-existing trend
+zulip,lines rewritten within 30 days,0.346,0.319,-8.0,-29.0,21.0,14354,10964,,—,withheld,CI includes 0
+zulip,lines rewritten within 90 days,0.227,0.141,-38.0,-56.0,-10.0,14354,10972,,—,asserted,
+zulip,cyclomatic delta (per 100 production lines added),6.09,7.08,16.0,,,3702,1866,,—,excluded,confounded by a pre-existing trend
+zulip,cyclomatic delta per commit,0.0,0.0,,,,3838,1923,0.5698,0.5698,excluded,confounded by a pre-existing trend
+zulip,production lines added per commit,9.0,9.0,0.0,,,3702,1866,0.4843,0.4843,excluded,effect under 5%
+zulip,excess complexity per KLOC,14.5,14.8,2.0,,,17,9,0.0001,<0.0001,excluded,effect under 5%
+zulip,follow-ups (per change),0.12,0.0785,-35.0,,,3838,1923,,—,excluded,confounded by a pre-existing trend
+zulip,days to first follow-up,14.6,8.65,-41.0,,,335,114,0.0056,0.0056,asserted,
+zulip,share of follow-ups that are repairs,0.0976,0.0606,-38.0,,,82,33,,—,asserted,
+zulip,reimplementations (per KLOC added),0.19,0.162,-15.0,,,3768,1901,,—,asserted,
+appsmith,rework edits (per 100 lines added),0.162,0.024,-85.0,,,631,211,,—,excluded,confounded by a pre-existing trend
+appsmith,lines rewritten within 30 days,0.0978,0.0237,-76.0,-96.0,-31.0,25984,12123,,—,asserted,
+appsmith,lines rewritten within 90 days,0.132,0.0363,-72.0,-90.0,-43.0,25984,12123,,—,asserted,
+appsmith,cyclomatic delta (per 100 production lines added),6.3,8.65,37.0,,,609,206,,—,excluded,confounded by a pre-existing trend
+appsmith,cyclomatic delta per commit,1.0,4.0,300.0,,,631,211,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+appsmith,production lines added per commit,27.0,44.0,63.0,,,609,206,0.0001,<0.0001,asserted,
+appsmith,excess complexity per KLOC,5.63,5.76,2.0,,,17,9,0.0011,0.0011,excluded,effect under 5%
+appsmith,follow-ups (per change),0.382,0.246,-35.0,,,631,211,,—,excluded,confounded by a pre-existing trend
+appsmith,days to first follow-up,7.7,9.0,17.0,,,102,13,0.2331,0.2331,excluded,an arm under 20
+appsmith,share of follow-ups that are repairs,0.294,0.571,94.0,,,85,28,,—,asserted,
+appsmith,reimplementations (per KLOC added),0.223,0.0522,-77.0,,,631,211,,—,asserted,
+n8n,rework edits (per 100 lines added),0.113,0.174,54.0,,,3162,6975,,—,excluded,confounded by a pre-existing trend
+n8n,lines rewritten within 30 days,0.131,0.112,-15.0,-38.0,18.0,29758,36139,,—,withheld,CI includes 0
+n8n,lines rewritten within 90 days,0.211,0.169,-20.0,-37.0,2.0,29758,36139,,—,withheld,CI includes 0
+n8n,cyclomatic delta (per 100 production lines added),5.74,9.39,63.0,,,3110,6901,,—,excluded,confounded by a pre-existing trend
+n8n,cyclomatic delta per commit,1.0,4.0,300.0,,,3162,6975,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+n8n,production lines added per commit,27.0,62.0,130.0,,,3110,6901,0.0001,<0.0001,asserted,
+n8n,excess complexity per KLOC,15.4,14.6,-5.0,,,8,18,0.0027,0.0027,excluded,an arm under 20
+n8n,follow-ups (per change),0.888,1.36,53.0,,,3162,6975,,—,excluded,confounded by a pre-existing trend
+n8n,days to first follow-up,13.1,8.1,-38.0,,,974,2710,0.0001,<0.0001,asserted,
+n8n,share of follow-ups that are repairs,0.13,0.0633,-51.0,,,23,79,,—,asserted,
+n8n,reimplementations (per KLOC added),0.142,0.14,-1.0,,,3146,6951,,—,excluded,effect under 5%
+lightdash,rework edits (per 100 lines added),0.42,0.291,-31.0,,,2880,6415,,—,excluded,confounded by a pre-existing trend
+lightdash,lines rewritten within 30 days,0.203,0.139,-31.0,-46.0,-15.0,38055,47783,,—,asserted,
+lightdash,lines rewritten within 90 days,0.288,0.196,-32.0,-43.0,-18.0,38055,47783,,—,asserted,
+lightdash,cyclomatic delta (per 100 production lines added),4.89,8.96,83.0,,,2834,6341,,—,asserted,
+lightdash,cyclomatic delta per commit,2.0,5.0,150.0,,,2880,6415,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+lightdash,production lines added per commit,37.0,73.0,97.0,,,2834,6341,0.0001,<0.0001,asserted,
+lightdash,excess complexity per KLOC,7.45,11.8,59.0,,,8,18,0.0001,<0.0001,excluded,an arm under 20
+lightdash,follow-ups (per change),1.16,1.37,18.0,,,2880,6415,,—,excluded,confounded by a pre-existing trend
+lightdash,days to first follow-up,5.2,3.3,-37.0,,,1052,2696,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+lightdash,share of follow-ups that are repairs,0.37,0.0581,-84.0,,,27,86,,—,asserted,
+lightdash,reimplementations (per KLOC added),0.204,0.126,-38.0,,,2871,6389,,—,asserted,
+activepieces,rework edits (per 100 lines added),0.0587,0.158,168.0,,,2317,2249,,—,excluded,confounded by a pre-existing trend
+activepieces,lines rewritten within 30 days,0.127,0.126,-1.0,-27.0,33.0,46763,49314,,—,excluded,effect under 5%
+activepieces,lines rewritten within 90 days,0.22,0.157,-28.0,-44.0,-9.0,46763,49314,,—,asserted,
+activepieces,cyclomatic delta (per 100 production lines added),7.05,8.64,23.0,,,2276,2229,,—,asserted,
+activepieces,cyclomatic delta per commit,1.0,6.0,500.0,,,2317,2249,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+activepieces,production lines added per commit,28.0,77.0,175.0,,,2276,2229,0.0001,<0.0001,asserted,
+activepieces,excess complexity per KLOC,10.1,11.9,18.0,,,13,13,0.0023,0.0023,excluded,an arm under 20
+activepieces,follow-ups (per change),0.295,1.27,329.0,,,2317,2249,,—,asserted,
+activepieces,days to first follow-up,5.15,7.9,53.0,,,224,709,0.0045,0.0045,excluded,confounded by a pre-existing trend
+activepieces,share of follow-ups that are repairs,0.125,0.131,5.0,,,16,99,,—,excluded,an arm under 20
+activepieces,reimplementations (per KLOC added),0.104,0.147,42.0,,,2311,2230,,—,asserted,
+sentry,rework edits (per 100 lines added),0.208,0.304,46.0,,,7827,8120,,—,excluded,confounded by a pre-existing trend
+sentry,lines rewritten within 30 days,0.209,0.164,-22.0,-42.0,3.0,21679,23352,,—,withheld,CI includes 0
+sentry,lines rewritten within 90 days,0.277,0.218,-21.0,-37.0,-1.0,21679,23352,,—,asserted,
+sentry,cyclomatic delta (per 100 production lines added),4.08,5.26,29.0,,,7349,7564,,—,asserted,
+sentry,cyclomatic delta per commit,0.0,0.0,,,,7827,8120,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+sentry,production lines added per commit,12.0,17.0,42.0,,,7349,7564,0.0001,<0.0001,asserted,
+sentry,excess complexity per KLOC,9.3,11.0,18.0,,,13,13,0.0001,<0.0001,excluded,an arm under 20
+sentry,follow-ups (per change),0.437,0.517,18.0,,,7827,8120,,—,excluded,confounded by a pre-existing trend
+sentry,days to first follow-up,11.1,8.0,-28.0,,,1760,1986,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+sentry,share of follow-ups that are repairs,0.175,0.121,-31.0,,,40,66,,—,asserted,
+sentry,reimplementations (per KLOC added),0.201,0.153,-24.0,,,7821,8079,,—,asserted,
+cal.com,rework edits (per 100 lines added),0.286,0.159,-44.0,,,2546,2528,,—,excluded,confounded by a pre-existing trend
+cal.com,lines rewritten within 30 days,0.128,0.137,7.0,-23.0,50.0,34905,35314,,—,withheld,CI includes 0
+cal.com,lines rewritten within 90 days,0.214,0.286,34.0,6.0,67.0,34905,35314,,—,asserted,
+cal.com,cyclomatic delta (per 100 production lines added),4.58,5.65,23.0,,,2488,2471,,—,excluded,confounded by a pre-existing trend
+cal.com,cyclomatic delta per commit,1.0,1.0,0.0,,,2546,2528,0.0012,0.0012,excluded,effect under 5%
+cal.com,production lines added per commit,22.0,23.0,5.0,,,2488,2471,0.0312,0.0312,excluded,effect under 5%
+cal.com,excess complexity per KLOC,10.5,10.4,-1.0,,,12,14,0.0998,0.0998,excluded,effect under 5%
+cal.com,follow-ups (per change),0.874,0.949,9.0,,,2546,2528,,—,asserted,
+cal.com,days to first follow-up,13.9,14.1,2.0,,,676,702,0.3963,0.3963,excluded,confounded by a pre-existing trend
+cal.com,share of follow-ups that are repairs,0.125,0.0976,-22.0,,,32,82,,—,asserted,
+cal.com,reimplementations (per KLOC added),0.265,0.198,-25.0,,,2527,2514,,—,asserted,
+infisical,rework edits (per 100 lines added),0.0289,0.0815,182.0,,,1702,689,,—,asserted,
+infisical,lines rewritten within 30 days,0.11,0.0746,-32.0,-51.0,-10.0,56503,57040,,—,asserted,
+infisical,lines rewritten within 90 days,0.229,0.0908,-60.0,-69.0,-50.0,56503,57040,,—,asserted,
+infisical,cyclomatic delta (per 100 production lines added),7.68,6.7,-13.0,,,1690,683,,—,excluded,confounded by a pre-existing trend
+infisical,cyclomatic delta per commit,5.0,5.0,0.0,,,1702,689,0.747,0.7470,excluded,confounded by a pre-existing trend
+infisical,production lines added per commit,72.0,101.0,40.0,,,1690,683,0.0068,0.0068,asserted,
+infisical,excess complexity per KLOC,9.87,13.0,32.0,,,18,8,0.0001,<0.0001,excluded,an arm under 20
+infisical,follow-ups (per change),0.218,0.7,221.0,,,1702,689,,—,asserted,
+infisical,days to first follow-up,14.1,6.9,-51.0,,,74,101,0.0028,0.0028,excluded,confounded by a pre-existing trend
+infisical,share of follow-ups that are repairs,0.17,0.0769,-55.0,,,47,65,,—,asserted,
+infisical,reimplementations (per KLOC added),0.193,0.127,-34.0,,,1682,667,,—,asserted,
+mattermost,rework edits (per 100 lines added),0.108,0.0678,-37.0,,,1394,1819,,—,excluded,confounded by a pre-existing trend
+mattermost,lines rewritten within 30 days,0.0296,0.0284,-4.0,-40.0,58.0,31045,44416,,—,excluded,effect under 5%
+mattermost,lines rewritten within 90 days,0.0669,0.0599,-10.0,-36.0,27.0,31045,44416,,—,withheld,CI includes 0
+mattermost,cyclomatic delta (per 100 production lines added),5.41,9.26,71.0,,,1370,1787,,—,excluded,confounded by a pre-existing trend
+mattermost,cyclomatic delta per commit,1.0,4.0,300.0,,,1394,1819,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+mattermost,production lines added per commit,20.0,73.0,265.0,,,1370,1787,0.0001,<0.0001,asserted,
+mattermost,excess complexity per KLOC,8.88,9.41,6.0,,,11,15,0.0006,0.0006,excluded,an arm under 20
+mattermost,follow-ups (per change),0.26,0.633,144.0,,,1394,1819,,—,asserted,
+mattermost,days to first follow-up,25.5,16.1,-37.0,,,136,357,0.0009,0.0009,excluded,confounded by a pre-existing trend
+mattermost,share of follow-ups that are repairs,0.0625,0.0843,35.0,,,32,83,,—,asserted,
+mattermost,reimplementations (per KLOC added),0.258,0.0858,-67.0,,,1394,1787,,—,asserted,
+twenty,rework edits (per 100 lines added),0.376,0.233,-38.0,,,3598,5068,,—,excluded,confounded by a pre-existing trend
+twenty,lines rewritten within 30 days,0.219,0.186,-15.0,-31.0,3.0,49560,49582,,—,withheld,CI includes 0
+twenty,lines rewritten within 90 days,0.36,0.276,-23.0,-35.0,-11.0,49560,49582,,—,asserted,
+twenty,cyclomatic delta (per 100 production lines added),3.87,4.96,28.0,,,3532,4980,,—,excluded,confounded by a pre-existing trend
+twenty,cyclomatic delta per commit,2.0,3.0,50.0,,,3598,5068,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+twenty,production lines added per commit,64.0,89.0,39.0,,,3532,4980,0.0001,<0.0001,asserted,
+twenty,excess complexity per KLOC,2.89,5.69,97.0,,,10,16,0.0001,<0.0001,excluded,an arm under 20
+twenty,follow-ups (per change),2.44,2.4,-2.0,,,3598,5068,,—,excluded,confounded by a pre-existing trend
+twenty,days to first follow-up,7.7,6.0,-22.0,,,1752,2197,0.0001,<0.0001,asserted,
+twenty,share of follow-ups that are repairs,0.093,0.087,-7.0,,,43,69,,—,asserted,
+twenty,reimplementations (per KLOC added),0.117,0.083,-29.0,,,3585,5041,,—,asserted,
+grafana,rework edits (per 100 lines added),0.203,0.205,1.0,,,4374,4933,,—,excluded,effect under 5%
+grafana,lines rewritten within 30 days,0.116,0.0782,-32.0,-51.0,-6.0,35605,38216,,—,asserted,
+grafana,lines rewritten within 90 days,0.185,0.119,-35.0,-50.0,-16.0,35605,38216,,—,asserted,
+grafana,cyclomatic delta (per 100 production lines added),4.9,7.04,44.0,,,4221,4761,,—,excluded,confounded by a pre-existing trend
+grafana,cyclomatic delta per commit,1.0,3.0,200.0,,,4374,4933,0.0001,<0.0001,excluded,confounded by a pre-existing trend
+grafana,production lines added per commit,29.0,56.0,93.0,,,4221,4761,0.0001,<0.0001,asserted,
+grafana,excess complexity per KLOC,7.7,7.13,-7.0,,,12,14,0.0001,<0.0001,excluded,an arm under 20
+grafana,follow-ups (per change),0.952,0.909,-5.0,,,4374,4933,,—,excluded,confounded by a pre-existing trend
+grafana,days to first follow-up,12.2,9.95,-18.0,,,1223,1504,0.0078,0.0078,excluded,confounded by a pre-existing trend
+grafana,share of follow-ups that are repairs,0.0896,0.0889,-1.0,,,67,45,,—,excluded,effect under 5%
+grafana,reimplementations (per KLOC added),0.265,0.261,-1.0,,,4359,4923,,—,excluded,effect under 5%

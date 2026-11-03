@@ -1,0 +1,244 @@
+{
+ "size": {
+  "growth": {
+   "n": 39,
+   "median": 39.99,
+   "ci": [
+    24.1,
+    102.06
+   ],
+   "rose": 36,
+   "fell": 3,
+   "p": 0.0
+  },
+  "months_median": 22.5,
+  "first_median": 230173,
+  "last_median": 350166,
+  "rate_all": {
+   "n": 39,
+   "median": 1.83,
+   "ci": [
+    1.01,
+    2.79
+   ],
+   "rose": 35,
+   "fell": 4,
+   "p": 0.0
+  },
+  "rate_before": {
+   "n": 30,
+   "median": 1.75,
+   "ci": [
+    0.82,
+    2.5
+   ],
+   "rose": 27,
+   "fell": 3,
+   "p": 0.0
+  },
+  "rate_after": {
+   "n": 30,
+   "median": 1.2,
+   "ci": [
+    0.51,
+    3.16
+   ],
+   "rose": 26,
+   "fell": 4,
+   "p": 0.0001
+  },
+  "rate_diff": {
+   "n": 30,
+   "median": 0.32,
+   "ci": [
+    -0.28,
+    0.97
+   ],
+   "rose": 16,
+   "fell": 14,
+   "p": 0.8555
+  }
+ },
+ "judged": {
+  "repair_before_median": 0.1540880503144654,
+  "repair_after_median": 0.11031894934333959,
+  "extension_before_median": 0.5773809523809523,
+  "extension_after_median": 0.7099708061980687,
+  "repair_change": {
+   "n": 28,
+   "median": -26.92,
+   "ci": [
+    -35.55,
+    -7.07
+   ],
+   "rose": 7,
+   "fell": 21,
+   "p": 0.0125
+  },
+  "extension_change": {
+   "n": 30,
+   "median": 11.26,
+   "ci": [
+    -0.15,
+    23.99
+   ],
+   "rose": 20,
+   "fell": 10,
+   "p": 0.0987
+  },
+  "judged_median_before": 44.5,
+  "judged_median_after": 58.5,
+  "ai_n": 18,
+  "repair_ai_median": 0.11221590909090909,
+  "repair_un_median": 0.1141439205955335,
+  "extension_ai_median": 0.7027610008628128,
+  "extension_un_median": 0.6717352415026834,
+  "repair_ai_gap": {
+   "n": 18,
+   "median": -3.03,
+   "ci": [
+    -5.49,
+    4.44
+   ],
+   "rose": 7,
+   "fell": 11,
+   "p": 0.4807
+  },
+  "extension_ai_gap": {
+   "n": 18,
+   "median": 0.04,
+   "ci": [
+    -13.19,
+    13.82
+   ],
+   "rose": 9,
+   "fell": 9,
+   "p": 1.0
+  }
+ },
+ "tests": {
+  "per_cw_change": {
+   "n": 30,
+   "median": 107.01,
+   "ci": [
+    62.02,
+    179.04
+   ],
+   "rose": 29,
+   "fell": 1,
+   "p": 0.0
+  },
+  "per_kloc_change": {
+   "n": 30,
+   "median": 34.34,
+   "ci": [
+    -10.83,
+    85.05
+   ],
+   "rose": 17,
+   "fell": 13,
+   "p": 0.5847
+  },
+  "per_kloc_before_median": 0.4816822249717907,
+  "per_kloc_after_median": 0.7476337079923849,
+  "test_rate_before": {
+   "n": 17,
+   "median": 1.78,
+   "ci": [
+    -1.9,
+    4.25
+   ],
+   "rose": 11,
+   "fell": 6,
+   "p": 0.3323
+  },
+  "test_rate_after": {
+   "n": 17,
+   "median": 4.14,
+   "ci": [
+    1.2,
+    18.68
+   ],
+   "rose": 13,
+   "fell": 4,
+   "p": 0.049
+  },
+  "line_rate_after_same": {
+   "n": 17,
+   "median": 5.1,
+   "ci": [
+    0.02,
+    10.98
+   ],
+   "rose": 13,
+   "fell": 4,
+   "p": 0.049
+  },
+  "test_minus_line_after": {
+   "n": 17,
+   "median": -1.04,
+   "ci": [
+    -2.7,
+    2.62
+   ],
+   "rose": 7,
+   "fell": 10,
+   "p": 0.6291
+  }
+ },
+ "test_share_rate_undated": {
+  "n": 8,
+  "median": 3.26,
+  "ci": [
+   1.8,
+   4.03
+  ],
+  "rose": 8,
+  "fell": 0,
+  "p": 0.0078
+ },
+ "test_share_rate_before": {
+  "n": 25,
+  "median": 2.53,
+  "ci": [
+   -0.51,
+   4.16
+  ],
+  "rose": 17,
+  "fell": 8,
+  "p": 0.1078
+ },
+ "test_share_rate_after": {
+  "n": 25,
+  "median": 4.8,
+  "ci": [
+   2.9,
+   8.77
+  ],
+  "rose": 22,
+  "fell": 3,
+  "p": 0.0002
+ },
+ "lines_undated": {
+  "n": 10,
+  "median": 5.01,
+  "ci": [
+   1.19,
+   11.03
+  ],
+  "rose": 9,
+  "fell": 1,
+  "p": 0.0215
+ },
+ "lines_per_author_undated": {
+  "n": 10,
+  "median": 4.18,
+  "ci": [
+   1.6,
+   8.14
+  ],
+  "rose": 9,
+  "fell": 1,
+  "p": 0.0215
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "method": "log-linear fit per project; months with >= 1000 production lines; >= 4 months per fit",
+ "whole_window": {
+  "n": 39,
+  "median": 2.79,
+  "ci": [
+   2.23,
+   3.78
+  ],
+  "rose": 36,
+  "fell": 3,
+  "p": 0.0
+ },
+ "dated_whole_window": {
+  "n": 29,
+  "median": 3.04,
+  "ci": [
+   2.68,
+   4.0
+  ],
+  "rose": 26,
+  "fell": 3,
+  "p": 0.0
+ },
+ "before": {
+  "n": 26,
+  "median": 0.72,
+  "ci": [
+   -0.76,
+   3.39
+  ],
+  "rose": 15,
+  "fell": 11,
+  "p": 0.557
+ },
+ "after": {
+  "n": 26,
+  "median": 3.53,
+  "ci": [
+   1.73,
+   5.43
+  ],
+  "rose": 21,
+  "fell": 5,
+  "p": 0.002
+ },
+ "after_minus_before": {
+  "n": 26,
+  "median": 2.24,
+  "ci": [
+   -2.15,
+   5.77
+  ],
+  "rose": 16,
+  "fell": 10,
+  "p": 0.327
+ },
+ "after_all_dated": {
+  "n": 27,
+  "median": 3.1,
+  "ci": [
+   1.45,
+   5.01
+  ],
+  "rose": 21,
+  "fell": 6,
+  "p": 0.006
+ },
+ "undated_whole_window": {
+  "n": 10,
+  "median": 1.9,
+  "ci": [
+   0.79,
+   5.94
+  ],
+  "rose": 10,
+  "fell": 0,
+  "p": 0.002
+ },
+ "sensitivity": [
+  {
+   "min_lines": 1,
+   "min_months": 4,
+   "after": {
+    "n": 28,
+    "median": 4.16,
+    "ci": [
+     1.01,
+     5.95
+    ],
+    "rose": 22,
+    "fell": 6,
+    "p": 0.004
+   },
+   "before": {
+    "n": 28,
+    "median": 0.33,
+    "ci": [
+     -1.52,
+     2.22
+    ],
+    "rose": 15,
+    "fell": 13,
+    "p": 0.851
+   },
+   "diff": {
+    "n": 28,
+    "median": 3.47,
+    "ci": [
+     -0.11,
+     6.83
+    ],
+    "rose": 19,
+    "fell": 9,
+    "p": 0.087
+   }
+  },
+  {
+   "min_lines": 1000,
+   "min_months": 3,
+   "after": {
+    "n": 28,
+    "median": 3.53,
+    "ci": [
+     1.73,
+     5.49
+    ],
+    "rose": 22,
+    "fell": 6,
+    "p": 0.004
+   },
+   "before": {
+    "n": 28,
+    "median": 1.11,
+    "ci": [
+     -0.52,
+     3.4
+    ],
+    "rose": 17,
+    "fell": 11,
+    "p": 0.345
+   },
+   "diff": {
+    "n": 28,
+    "median": 2.24,
+    "ci": [
+     -2.82,
+     6.0
+    ],
+    "rose": 17,
+    "fell": 11,
+    "p": 0.345
+   }
+  },
+  {
+   "min_lines": 1000,
+   "min_months": 6,
+   "after": {
+    "n": 21,
+    "median": 4.35,
+    "ci": [
+     2.52,
+     5.97
+    ],
+    "rose": 18,
+    "fell": 3,
+    "p": 0.001
+   },
+   "before": {
+    "n": 21,
+    "median": 1.7,
+    "ci": [
+     -0.0,
+     4.33
+    ],
+    "rose": 14,
+    "fell": 7,
+    "p": 0.189
+   },
+   "diff": {
+    "n": 21,
+    "median": 3.2,
+    "ci": [
+     -4.04,
+     5.23
+    ],
+    "rose": 12,
+    "fell": 9,
+    "p": 0.664
+   }
+  },
+  {
+   "min_lines": 5000,
+   "min_months": 4,
+   "after": {
+    "n": 18,
+    "median": 4.86,
+    "ci": [
+     2.27,
+     6.7
+    ],
+    "rose": 16,
+    "fell": 2,
+    "p": 0.001
+   },
+   "before": {
+    "n": 18,
+    "median": 3.35,
+    "ci": [
+     -0.27,
+     7.3
+    ],
+    "rose": 12,
+    "fell": 6,
+    "p": 0.238
+   },
+   "diff": {
+    "n": 18,
+    "median": 3.47,
+    "ci": [
+     -5.98,
+     5.12
+    ],
+    "rose": 12,
+    "fell": 6,
+    "p": 0.238
+   }
+  }
+ ],
+ "paired_n": 26,
+ "paired_before_months_median": 11.5,
+ "paired_after_months_median": 9.0
+}

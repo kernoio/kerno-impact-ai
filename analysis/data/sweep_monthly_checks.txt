@@ -1,0 +1,9 @@
+panels found: 5 (expected 5)
+full-scale bar height: 38.25pt (shared by all panels)
+slots per panel: 20; slot indices reproducing all five 2026-02 cards: [14]
+OK  alignment: slot 14 = 2026-02, so slots run 2024-12..2026-07
+  Cyclomatic delta: max rounding residual 0.030 repos
+  Rework edits: max rounding residual 0.018 repos
+  Follow-ups: max rounding residual 0.023 repos
+  Reimplementations: max rounding residual 0.021 repos
+  Repair share: max rounding residual 0.018 repos

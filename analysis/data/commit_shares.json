@@ -1,0 +1,94 @@
+{
+ "total_commits": 201576,
+ "codebases": 46,
+ "dated": {
+  "codebases": 30,
+  "commits": 166310,
+  "share_of_all": 0.825
+ },
+ "undated": {
+  "codebases": 15,
+  "commits": 35266,
+  "share_of_all": 0.175
+ },
+ "trend": {
+  "codebases": 44,
+  "commits": 201573,
+  "share_of_all": 1.0
+ },
+ "trend_rise": {
+  "codebases": 21,
+  "commits": 142838,
+  "share_of_all": 0.7086
+ },
+ "trend_fall": {
+  "codebases": 0,
+  "commits": 0,
+  "share_of_all": 0.0
+ },
+ "trend_none": {
+  "codebases": 18,
+  "commits": 56982,
+  "share_of_all": 0.2827
+ },
+ "trend_fitted": {
+  "codebases": 39,
+  "commits": 199820,
+  "share_of_all": 0.9913
+ },
+ "trend_nodata": {
+  "codebases": 5,
+  "commits": 1753,
+  "share_of_all": 0.0087
+ },
+ "cyc_rose": {
+  "codebases": 27,
+  "commits": 160359,
+  "share_of_all": 0.7955
+ },
+ "cyc_fell": {
+  "codebases": 2,
+  "commits": 4626,
+  "share_of_all": 0.0229
+ },
+ "lpc_rose": {
+  "codebases": 26,
+  "commits": 149431,
+  "share_of_all": 0.7413
+ },
+ "rw90_fell": {
+  "codebases": 24,
+  "commits": 151815,
+  "share_of_all": 0.7531
+ },
+ "tp_lines_rose": {
+  "codebases": 23,
+  "commits": 139817,
+  "share_of_all": 0.6936
+ },
+ "tp_test_rose": {
+  "codebases": 25,
+  "commits": 140394,
+  "share_of_all": 0.6965
+ },
+ "ab_rw30_rose": {
+  "codebases": 18,
+  "commits": 114062,
+  "share_of_all": 0.5659
+ },
+ "ab_rw90_rose": {
+  "codebases": 19,
+  "commits": 115278,
+  "share_of_all": 0.5719
+ },
+ "ab_bug_rose": {
+  "codebases": 19,
+  "commits": 89945,
+  "share_of_all": 0.4462
+ },
+ "sn_rose": {
+  "codebases": 33,
+  "commits": 145703,
+  "share_of_all": 0.7228
+ }
+}

@@ -66,6 +66,7 @@ extract/complexity_monthly.csv original-round monthly decision-points / 100 line
 extract/complexity_before_after.csv  original 30-repo before/after + confound flags
 extract/window_feasibility.json      original-round coverage vs completed 4y walk
 scripts/                       harness scripts that built the original CSVs
+analysis/                      statistics behind every number in the report (see analysis/README.md)
 REPORT.md                      generated original-round summary (local paths stripped)
 ```
 

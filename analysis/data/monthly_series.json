@@ -1,0 +1,31 @@
+{
+ "codebases": 27,
+ "months": [
+  -12,
+  9
+ ],
+ "pre_first": {
+  "rel_month": -12,
+  "n": 22,
+  "median": 67.5,
+  "q1": 41.7,
+  "q3": 105.5
+ },
+ "pre_last": {
+  "rel_month": -1,
+  "n": 26,
+  "median": 100.7,
+  "q1": 88.2,
+  "q3": 132.0
+ },
+ "post_last": {
+  "rel_month": 9,
+  "n": 11,
+  "median": 168.8,
+  "q1": 140.8,
+  "q3": 181.5
+ },
+ "post_median_of_medians": 133.1,
+ "pre_median_of_medians": 100.8,
+ "last3_post": 164.1
+}

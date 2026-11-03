@@ -1,0 +1,72 @@
+{
+ "n": 39,
+ "cuts": [
+  4.11,
+  7.17,
+  9.59
+ ],
+ "grade_counts_first": {
+  "A": 10,
+  "B": 10,
+  "C": 9,
+  "D": 10
+ },
+ "grade_counts_last": {
+  "A": 2,
+  "B": 9,
+  "C": 8,
+  "D": 20
+ },
+ "moved_worse": [
+  "baserow A→B",
+  "vendure A→B",
+  "medusa A→B",
+  "rallly A→B",
+  "twenty A→B",
+  "prefect B→C",
+  "strapi B→C",
+  "outline B→C",
+  "novu A→C",
+  "jitsi-meet B→C",
+  "activepieces A→D",
+  "evershop A→D",
+  "mattermost C→D",
+  "keep B→D",
+  "budibase C→D",
+  "django-cms C→D",
+  "sentry C→D",
+  "actual C→D",
+  "infisical B→D",
+  "hoppscotch B→D",
+  "lightdash B→D"
+ ],
+ "moved_better": [
+  "flagsmith C→B",
+  "erxes C→B",
+  "erpnext D→C"
+ ],
+ "excess_change": {
+  "median": 20.2,
+  "ci": [
+   12.8,
+   42.0
+  ],
+  "rose": 28,
+  "fell": 11,
+  "p": 0.009475304279476404
+ },
+ "complex_share_change": {
+  "median": 22.1,
+  "ci": [
+   7.1,
+   31.8
+  ],
+  "rose": 29,
+  "fell": 9,
+  "p": 0.0016580525261815637
+ },
+ "complex_share_first_median": 0.0201,
+ "complex_share_last_median": 0.0267,
+ "excess_first_median": 7.17,
+ "excess_last_median": 9.73
+}

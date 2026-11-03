@@ -1,0 +1,316 @@
+repo,metric,months,start,end,window_change_pct,slope_per_month,p,p_raw,status
+redash,cyclomatic delta (per 100 production lines added),7,0.0,0.0,,0.0,,—,unfitted
+redash,production lines added per commit,7,0.0,0.0,,0.0,,—,unfitted
+redash,rework edits (per 100 lines added),7,0.0,0.0,,0.0,,—,unfitted
+redash,reimplementations (per KLOC added),7,0.0,0.0,,0.0,,—,unfitted
+redash,follow-ups (per change),7,0.0,0.0,,0.0,,—,unfitted
+redash,days to first follow-up,0,0.0,0.0,,0.0,,—,unfitted
+redash,share of follow-ups that are repairs,0,0.0,0.0,,0.0,,—,unfitted
+focalboard,unknown,0,0.0,0.0,,0.0,,—,unfitted
+focalboard,unknown,0,0.0,0.0,,0.0,,—,unfitted
+focalboard,unknown,0,0.0,0.0,,0.0,,—,unfitted
+focalboard,unknown,0,0.0,0.0,,0.0,,—,unfitted
+focalboard,unknown,0,0.0,0.0,,0.0,,—,unfitted
+focalboard,unknown,0,0.0,0.0,,0.0,,—,unfitted
+focalboard,share of follow-ups that are repairs,0,0.0,0.0,,0.0,,—,unfitted
+evershop,cyclomatic delta (per 100 production lines added),9,-4.12,11.8,,1.44,0.0499,0.0499,shown
+evershop,production lines added per commit,9,-3.59,187.0,,17.3,0.03,0.0300,shown
+evershop,reimplementations (per KLOC added),8,0.32,0.0659,-79.0,-0.0231,0.6989,0.6989,flat
+evershop,rework edits (per 100 lines added),9,0.0141,-0.00242,,-0.0015,0.1938,0.1938,flat
+evershop,follow-ups (per change),9,0.0994,-0.0092,,-0.00987,0.1938,0.1938,flat
+evershop,days to first follow-up,0,0.0,0.0,,0.0,,—,unfitted
+evershop,share of follow-ups that are repairs,0,0.0,0.0,,0.0,,—,unfitted
+wiki,cyclomatic delta (per 100 production lines added),5,0.0,0.0,,0.0,,—,unfitted
+wiki,production lines added per commit,5,0.0,0.0,,0.0,,—,unfitted
+wiki,rework edits (per 100 lines added),5,0.0,0.0,,0.0,,—,unfitted
+wiki,reimplementations (per KLOC added),5,0.0,0.0,,0.0,,—,unfitted
+wiki,follow-ups (per change),5,0.0,0.0,,0.0,,—,unfitted
+wiki,days to first follow-up,5,0.0,0.0,,0.0,,—,unfitted
+wiki,share of follow-ups that are repairs,5,0.0,0.0,,0.0,,—,unfitted
+hoppscotch,production lines added per commit,26,31.3,62.9,101.0,1.26,0.8793,0.8793,flat
+hoppscotch,rework edits (per 100 lines added),26,0.146,0.065,-55.0,-0.00323,0.298,0.2980,flat
+hoppscotch,reimplementations (per KLOC added),26,0.284,0.132,-54.0,-0.00609,0.5563,0.5563,flat
+hoppscotch,cyclomatic delta (per 100 production lines added),26,8.13,10.2,26.0,0.0843,0.3532,0.3532,flat
+hoppscotch,follow-ups (per change),26,0.641,0.488,-24.0,-0.0061,0.5846,0.5846,flat
+hoppscotch,share of follow-ups that are repairs,11,0.383,0.308,-20.0,-0.00376,0.8548,0.8548,flat
+hoppscotch,days to first follow-up,12,21.7,21.7,-0.0,-0.0025,0.8874,0.8874,flat
+peppermint,cyclomatic delta (per 100 production lines added),1,0.0,0.0,,0.0,,—,unfitted
+peppermint,production lines added per commit,1,0.0,0.0,,0.0,,—,unfitted
+peppermint,rework edits (per 100 lines added),1,0.0,0.0,,0.0,,—,unfitted
+peppermint,reimplementations (per KLOC added),1,0.0,0.0,,0.0,,—,unfitted
+peppermint,follow-ups (per change),1,0.0,0.0,,0.0,,—,unfitted
+peppermint,days to first follow-up,0,0.0,0.0,,0.0,,—,unfitted
+peppermint,share of follow-ups that are repairs,1,0.0,0.0,,0.0,,—,unfitted
+rallly,reimplementations (per KLOC added),21,0.139,0.334,,0.00973,0.0465,0.0465,unestablished
+rallly,follow-ups (per change),21,1.25,1.04,-17.0,-0.0106,0.9439,0.9439,flat
+rallly,rework edits (per 100 lines added),21,0.716,0.6,-16.0,-0.0058,0.7875,0.7875,flat
+rallly,days to first follow-up,20,13.2,11.6,-12.0,-0.0772,0.4972,0.4972,flat
+rallly,cyclomatic delta (per 100 production lines added),21,1.66,4.35,,0.134,0.162,0.1620,flat
+rallly,production lines added per commit,21,10.7,29.3,,0.928,0.2959,0.2959,flat
+rallly,share of follow-ups that are repairs,6,0.0,0.0,,0.0,,—,unfitted
+django-cms,reimplementations (per KLOC added),22,-0.0128,0.182,,0.0078,0.0275,0.0275,unestablished
+django-cms,production lines added per commit,23,13.1,24.2,85.0,0.444,0.3623,0.3623,flat
+django-cms,rework edits (per 100 lines added),23,0.133,0.0264,-80.0,-0.00428,0.6252,0.6252,flat
+django-cms,follow-ups (per change),23,0.161,0.0642,-60.0,-0.00387,0.8442,0.8442,flat
+django-cms,cyclomatic delta (per 100 production lines added),22,-2.57,2.15,,0.189,0.0673,0.0673,flat
+django-cms,days to first follow-up,1,0.0,0.0,,0.0,,—,unfitted
+django-cms,share of follow-ups that are repairs,3,0.0,0.0,,0.0,,—,unfitted
+keep,follow-ups (per change),26,1.45,-0.322,-122.0,-0.0658,0.0001,<0.0001,shown
+keep,rework edits (per 100 lines added),26,0.533,-0.0916,-117.0,-0.0231,0.0001,<0.0001,shown
+keep,production lines added per commit,26,29.0,11.1,-62.0,-0.661,0.002,0.0020,shown
+keep,cyclomatic delta (per 100 production lines added),26,7.3,9.46,30.0,0.08,0.0073,0.0073,unestablished
+keep,days to first follow-up,13,18.5,7.28,-61.0,-0.935,0.1398,0.1398,flat
+keep,reimplementations (per KLOC added),26,0.481,0.339,-29.0,-0.00525,0.1739,0.1739,flat
+keep,share of follow-ups that are repairs,9,0.137,0.253,,0.0145,0.5606,0.5606,flat
+vendure,cyclomatic delta (per 100 production lines added),15,5.93,11.5,94.0,0.398,0.0504,0.0504,flat
+vendure,production lines added per commit,15,54.3,90.4,66.0,2.58,0.2123,0.2123,flat
+vendure,rework edits (per 100 lines added),15,0.02,0.039,,0.00136,0.1952,0.1952,flat
+vendure,reimplementations (per KLOC added),15,0.171,0.0258,,-0.0104,0.0925,0.0925,flat
+vendure,follow-ups (per change),15,0.329,0.422,,0.00663,0.7244,0.7244,flat
+vendure,share of follow-ups that are repairs,9,0.112,0.179,,0.00474,0.2339,0.2339,flat
+vendure,days to first follow-up,6,0.0,0.0,,0.0,,—,unfitted
+plane,rework edits (per 100 lines added),20,0.317,0.0615,-81.0,-0.0134,0.0092,0.0092,shown
+plane,follow-ups (per change),20,1.36,0.516,-62.0,-0.0442,0.0167,0.0167,unestablished
+plane,production lines added per commit,20,19.4,33.2,72.0,0.729,0.1775,0.1775,flat
+plane,days to first follow-up,12,24.0,7.15,-70.0,-0.989,0.3197,0.3197,flat
+plane,cyclomatic delta (per 100 production lines added),20,3.83,1.9,-50.0,-0.101,0.2688,0.2688,flat
+plane,reimplementations (per KLOC added),20,0.244,0.127,-48.0,-0.00613,0.5332,0.5332,flat
+plane,share of follow-ups that are repairs,9,0.133,0.0348,,-0.00614,0.8097,0.8097,flat
+wagtail,production lines added per commit,30,24.1,7.01,-71.0,-0.475,0.4723,0.4723,flat
+wagtail,reimplementations (per KLOC added),30,0.493,0.304,-38.0,-0.00526,0.751,0.7510,flat
+wagtail,cyclomatic delta (per 100 production lines added),30,2.09,-6.8,,-0.247,0.2673,0.2673,flat
+wagtail,rework edits (per 100 lines added),30,0.0816,0.252,,0.00473,0.2256,0.2256,flat
+wagtail,follow-ups (per change),30,-0.0206,0.364,,0.0107,0.0542,0.0542,flat
+wagtail,days to first follow-up,11,0.721,6.67,,0.283,0.3013,0.3013,flat
+wagtail,share of follow-ups that are repairs,4,0.0,0.0,,0.0,,—,unfitted
+baserow,cyclomatic delta (per 100 production lines added),25,6.8,9.97,47.0,0.132,0.001,0.0010,shown
+baserow,rework edits (per 100 lines added),25,0.000343,0.081,,0.00336,0.0002,0.0002,shown
+baserow,follow-ups (per change),25,-0.0286,0.94,,0.0404,0.0001,<0.0001,shown
+baserow,reimplementations (per KLOC added),25,0.153,0.0656,-57.0,-0.00362,0.0652,0.0652,flat
+baserow,days to first follow-up,12,15.5,21.1,37.0,0.473,0.883,0.8830,flat
+baserow,share of follow-ups that are repairs,9,0.394,0.271,-31.0,-0.0112,0.5164,0.5164,flat
+baserow,production lines added per commit,25,39.7,43.5,10.0,0.158,0.5884,0.5884,flat
+erxes,production lines added per commit,25,51.3,124.0,142.0,3.03,0.0199,0.0199,shown
+erxes,cyclomatic delta (per 100 production lines added),25,4.97,8.54,72.0,0.149,0.0032,0.0032,shown
+erxes,rework edits (per 100 lines added),25,0.00746,0.144,,0.0057,0.0111,0.0111,shown
+erxes,follow-ups (per change),25,0.0952,2.37,,0.0948,0.0004,0.0004,shown
+erxes,reimplementations (per KLOC added),25,0.571,-0.00611,-101.0,-0.024,0.1013,0.1013,flat
+erxes,days to first follow-up,16,11.9,7.36,-38.0,-0.189,0.9867,0.9867,flat
+erxes,share of follow-ups that are repairs,9,0.122,0.268,,0.0122,0.2339,0.2339,flat
+payload,production lines added per commit,17,12.7,38.8,206.0,1.63,0.0045,0.0045,shown
+payload,follow-ups (per change),17,0.33,0.726,120.0,0.0248,0.5429,0.5429,flat
+payload,cyclomatic delta (per 100 production lines added),17,4.76,8.45,77.0,0.23,0.2173,0.2173,flat
+payload,days to first follow-up,17,24.8,12.6,-49.0,-0.76,0.2397,0.2397,flat
+payload,rework edits (per 100 lines added),17,0.113,0.0805,-29.0,-0.00202,0.4915,0.4915,flat
+payload,reimplementations (per KLOC added),17,0.0528,0.0635,,0.000666,0.6286,0.6286,flat
+payload,share of follow-ups that are repairs,6,0.0,0.0,,0.0,,—,unfitted
+unleash,production lines added per commit,17,12.9,32.4,150.0,1.21,0.0208,0.0208,shown
+unleash,rework edits (per 100 lines added),17,0.808,0.349,-57.0,-0.0287,0.0377,0.0377,shown
+unleash,reimplementations (per KLOC added),17,0.645,0.28,-57.0,-0.0228,0.7979,0.7979,flat
+unleash,days to first follow-up,17,6.6,3.47,-47.0,-0.195,0.7943,0.7943,flat
+unleash,follow-ups (per change),17,0.805,0.692,-14.0,-0.00706,0.7765,0.7765,flat
+unleash,cyclomatic delta (per 100 production lines added),17,1.34,6.21,,0.304,0.0509,0.0509,flat
+unleash,share of follow-ups that are repairs,11,-0.00287,0.123,,0.00837,0.5065,0.5065,flat
+amplication,cyclomatic delta (per 100 production lines added),5,0.0,0.0,,0.0,,—,unfitted
+amplication,production lines added per commit,5,0.0,0.0,,0.0,,—,unfitted
+amplication,rework edits (per 100 lines added),5,0.0,0.0,,0.0,,—,unfitted
+amplication,reimplementations (per KLOC added),5,0.0,0.0,,0.0,,—,unfitted
+amplication,follow-ups (per change),5,0.0,0.0,,0.0,,—,unfitted
+amplication,unknown,0,0.0,0.0,,0.0,,—,unfitted
+amplication,share of follow-ups that are repairs,0,0.0,0.0,,0.0,,—,unfitted
+prefect,cyclomatic delta (per 100 production lines added),25,3.28,10.6,223.0,0.305,0.0001,<0.0001,shown
+prefect,follow-ups (per change),25,1.09,-0.0217,-102.0,-0.0463,0.0001,<0.0001,shown
+prefect,rework edits (per 100 lines added),25,0.294,0.00296,-99.0,-0.0121,0.003,0.0030,shown
+prefect,days to first follow-up,21,2.62,19.2,,0.754,0.0118,0.0118,shown
+prefect,production lines added per commit,25,44.5,25.1,-44.0,-0.807,0.1133,0.1133,flat
+prefect,reimplementations (per KLOC added),25,0.494,0.38,-23.0,-0.00477,0.7984,0.7984,flat
+prefect,share of follow-ups that are repairs,7,0.0,0.0,,0.0,,—,unfitted
+outline,production lines added per commit,23,10.9,27.2,150.0,0.743,0.0002,0.0002,shown
+outline,cyclomatic delta (per 100 production lines added),23,5.37,7.96,48.0,0.118,0.0306,0.0306,shown
+outline,reimplementations (per KLOC added),23,0.156,0.0743,-52.0,-0.00372,0.2058,0.2058,flat
+outline,rework edits (per 100 lines added),23,0.431,0.219,-49.0,-0.00965,0.0531,0.0531,flat
+outline,share of follow-ups that are repairs,10,0.313,0.187,-40.0,-0.00789,0.4484,0.4484,flat
+outline,days to first follow-up,23,16.8,23.2,38.0,0.292,0.2026,0.2026,flat
+outline,follow-ups (per change),23,0.328,0.351,7.0,0.00104,0.5728,0.5728,flat
+jitsi-meet,share of follow-ups that are repairs,9,0.54,0.133,-75.0,-0.024,0.0411,0.0411,shown
+jitsi-meet,production lines added per commit,25,-0.565,34.2,,1.45,0.0005,0.0005,shown
+jitsi-meet,reimplementations (per KLOC added),25,0.166,0.253,,0.00362,0.0385,0.0385,unestablished
+jitsi-meet,follow-ups (per change),25,0.119,0.366,208.0,0.0103,0.2273,0.2273,flat
+jitsi-meet,cyclomatic delta (per 100 production lines added),25,5.5,7.98,45.0,0.103,0.052,0.0520,flat
+jitsi-meet,rework edits (per 100 lines added),25,0.276,0.232,-16.0,-0.00183,0.8979,0.8979,flat
+jitsi-meet,days to first follow-up,12,16.7,15.2,-9.0,-0.0772,0.4287,0.4287,flat
+flagsmith,production lines added per commit,24,9.76,44.0,351.0,1.49,0.0002,0.0002,shown
+flagsmith,cyclomatic delta (per 100 production lines added),24,2.53,6.7,165.0,0.181,0.03,0.0300,shown
+flagsmith,follow-ups (per change),24,0.511,1.16,127.0,0.0282,0.0047,0.0047,shown
+flagsmith,days to first follow-up,21,24.4,12.5,-49.0,-0.566,0.1265,0.1265,flat
+flagsmith,reimplementations (per KLOC added),24,0.132,0.162,22.0,0.00129,0.1813,0.1813,flat
+flagsmith,rework edits (per 100 lines added),24,0.264,0.237,-10.0,-0.00118,0.8519,0.8519,flat
+flagsmith,share of follow-ups that are repairs,10,0.331,0.202,,-0.00642,0.8536,0.8536,flat
+typebot.io,cyclomatic delta (per 100 production lines added),19,-0.959,9.03,,0.555,0.0034,0.0034,shown
+typebot.io,production lines added per commit,19,6.05,53.8,,2.65,0.0033,0.0033,shown
+typebot.io,rework edits (per 100 lines added),19,0.353,0.118,-67.0,-0.013,0.0293,0.0293,unestablished
+typebot.io,follow-ups (per change),19,0.804,0.412,-49.0,-0.0217,0.2413,0.2413,flat
+typebot.io,reimplementations (per KLOC added),19,0.0723,0.156,,0.00465,0.6642,0.6642,flat
+typebot.io,days to first follow-up,13,5.85,16.1,,0.639,0.3452,0.3452,flat
+typebot.io,share of follow-ups that are repairs,7,0.0,0.0,,0.0,,—,unfitted
+directus,cyclomatic delta (per 100 production lines added),24,4.9,14.1,188.0,0.401,0.0239,0.0239,shown
+directus,production lines added per commit,24,13.0,27.7,113.0,0.64,0.0292,0.0292,shown
+directus,rework edits (per 100 lines added),24,0.0914,0.0184,-80.0,-0.00317,0.0283,0.0283,unestablished
+directus,reimplementations (per KLOC added),24,0.137,0.0161,-88.0,-0.00525,0.5784,0.5784,flat
+directus,follow-ups (per change),24,0.201,0.358,78.0,0.00684,0.6178,0.6178,flat
+directus,days to first follow-up,3,0.0,0.0,,0.0,,—,unfitted
+directus,share of follow-ups that are repairs,7,0.0,0.0,,0.0,,—,unfitted
+nango,follow-ups (per change),20,0.402,1.41,250.0,0.0529,0.009,0.0090,shown
+nango,cyclomatic delta (per 100 production lines added),20,5.47,10.8,98.0,0.281,0.0061,0.0061,shown
+nango,production lines added per commit,20,5.48,63.1,,3.03,0.0029,0.0029,shown
+nango,reimplementations (per KLOC added),20,0.243,0.279,15.0,0.0019,0.621,0.6210,flat
+nango,days to first follow-up,20,11.1,9.45,-15.0,-0.0849,0.6843,0.6843,flat
+nango,rework edits (per 100 lines added),20,0.349,0.332,-5.0,-0.000922,0.6122,0.6122,flat
+nango,share of follow-ups that are repairs,8,0.147,0.0328,,-0.00954,0.2226,0.2226,flat
+Ghost,production lines added per commit,28,3.35,29.2,,0.679,0.0003,0.0003,shown
+Ghost,follow-ups (per change),28,0.104,1.52,,0.0373,0.0001,<0.0001,shown
+Ghost,days to first follow-up,25,15.5,4.74,-69.0,-0.446,0.1382,0.1382,flat
+Ghost,rework edits (per 100 lines added),28,0.624,0.248,-60.0,-0.0099,0.5281,0.5281,flat
+Ghost,cyclomatic delta (per 100 production lines added),28,9.31,3.91,-58.0,-0.142,0.4074,0.4074,flat
+Ghost,reimplementations (per KLOC added),28,0.0893,0.329,,0.00631,0.1951,0.1951,flat
+Ghost,share of follow-ups that are repairs,8,0.17,0.00992,,-0.00891,0.0968,0.0968,flat
+formbricks,cyclomatic delta (per 100 production lines added),21,1.54,10.8,,0.461,0.0001,<0.0001,shown
+formbricks,production lines added per commit,21,10.1,66.4,,2.81,0.0056,0.0056,shown
+formbricks,reimplementations (per KLOC added),21,0.126,0.0513,-59.0,-0.00373,0.5049,0.5049,flat
+formbricks,rework edits (per 100 lines added),21,0.184,0.148,-19.0,-0.00178,0.9161,0.9161,flat
+formbricks,follow-ups (per change),21,1.28,1.18,-8.0,-0.00514,0.3692,0.3692,flat
+formbricks,days to first follow-up,21,19.0,19.0,-0.0,-0.00039,0.8647,0.8647,flat
+formbricks,share of follow-ups that are repairs,9,0.229,0.175,,-0.00285,0.8062,0.8062,flat
+actual,cyclomatic delta (per 100 production lines added),23,4.1,9.03,120.0,0.224,0.0114,0.0114,shown
+actual,rework edits (per 100 lines added),23,0.444,0.117,-74.0,-0.0149,0.0057,0.0057,shown
+actual,follow-ups (per change),23,0.915,0.351,-62.0,-0.0256,0.0317,0.0317,shown
+actual,production lines added per commit,23,18.8,30.7,63.0,0.538,0.0847,0.0847,flat
+actual,reimplementations (per KLOC added),23,0.308,0.183,-41.0,-0.0057,0.3938,0.3938,flat
+actual,days to first follow-up,22,22.6,21.4,-5.0,-0.0575,0.8394,0.8394,flat
+actual,share of follow-ups that are repairs,8,0.206,0.0761,,-0.00814,0.6319,0.6319,flat
+novu,cyclomatic delta (per 100 production lines added),29,3.05,9.07,198.0,0.215,0.0005,0.0005,shown
+novu,rework edits (per 100 lines added),29,0.645,0.212,-67.0,-0.0155,0.0001,<0.0001,shown
+novu,production lines added per commit,29,-8.36,111.0,,4.25,0.0055,0.0055,shown
+novu,reimplementations (per KLOC added),29,0.18,0.264,47.0,0.00302,0.5236,0.5236,flat
+novu,days to first follow-up,29,6.04,4.78,-21.0,-0.045,0.3107,0.3107,flat
+novu,follow-ups (per change),29,2.13,1.92,-10.0,-0.00773,0.876,0.8760,flat
+novu,share of follow-ups that are repairs,8,0.278,0.087,,-0.00829,0.3294,0.3294,flat
+strapi,production lines added per commit,15,504.0,-109.0,-122.0,-36.0,0.9637,0.9637,flat
+strapi,days to first follow-up,10,7.79,12.8,64.0,0.418,0.3577,0.3577,flat
+strapi,cyclomatic delta (per 100 production lines added),15,9.12,11.3,24.0,0.131,0.7587,0.7587,flat
+strapi,rework edits (per 100 lines added),15,0.0265,0.084,,0.00338,0.1468,0.1468,flat
+strapi,reimplementations (per KLOC added),15,0.0729,0.181,,0.00637,0.325,0.3250,flat
+strapi,follow-ups (per change),15,0.129,0.516,,0.0227,0.0547,0.0547,flat
+strapi,share of follow-ups that are repairs,8,0.324,0.277,,-0.00395,0.9336,0.9336,flat
+zulip,days to first follow-up,18,29.4,1.4,-95.0,-1.4,0.0385,0.0385,shown
+zulip,production lines added per commit,27,16.1,6.67,-59.0,-0.287,0.9187,0.9187,flat
+zulip,rework edits (per 100 lines added),27,0.143,0.101,-30.0,-0.00128,0.9479,0.9479,flat
+zulip,follow-ups (per change),27,0.103,0.0734,-29.0,-0.000889,0.7249,0.7249,flat
+zulip,cyclomatic delta (per 100 production lines added),27,6.35,6.67,,0.00986,0.1278,0.1278,flat
+zulip,reimplementations (per KLOC added),27,0.0466,0.277,,0.00698,0.1464,0.1464,flat
+zulip,share of follow-ups that are repairs,10,0.1,0.0364,,-0.00492,0.4888,0.4888,flat
+budibase,cyclomatic delta (per 100 production lines added),25,3.08,11.5,273.0,0.35,0.0022,0.0022,shown
+budibase,rework edits (per 100 lines added),25,0.00792,-0.00294,-137.0,-0.000453,0.0368,0.0368,shown
+budibase,follow-ups (per change),25,0.0139,-0.00239,-117.0,-0.000679,0.0466,0.0466,shown
+budibase,reimplementations (per KLOC added),25,0.115,0.102,-11.0,-0.000532,0.9592,0.9592,flat
+budibase,production lines added per commit,25,34.1,36.4,7.0,0.0946,0.093,0.0930,flat
+budibase,days to first follow-up,0,0.0,0.0,,0.0,,—,unfitted
+budibase,share of follow-ups that are repairs,0,0.0,0.0,,0.0,,—,unfitted
+appsmith,rework edits (per 100 lines added),21,0.191,-0.03,-116.0,-0.0111,0.0003,0.0003,shown
+appsmith,production lines added per commit,21,14.9,72.1,,2.86,0.0163,0.0163,shown
+appsmith,reimplementations (per KLOC added),21,0.207,0.0521,-75.0,-0.00773,0.3344,0.3344,flat
+appsmith,follow-ups (per change),21,0.308,0.154,-50.0,-0.00772,0.1469,0.1469,flat
+appsmith,cyclomatic delta (per 100 production lines added),20,6.42,9.59,49.0,0.159,0.2644,0.2644,flat
+appsmith,days to first follow-up,6,0.0,0.0,,0.0,,—,unfitted
+appsmith,share of follow-ups that are repairs,6,0.0,0.0,,0.0,,—,unfitted
+medusa,cyclomatic delta (per 100 production lines added),25,2.72,8.68,219.0,0.248,0.0001,<0.0001,shown
+medusa,follow-ups (per change),25,0.448,0.598,33.0,0.00624,0.9924,0.9924,flat
+medusa,production lines added per commit,25,24.3,26.7,10.0,0.0965,0.9939,0.9939,flat
+medusa,days to first follow-up,23,14.8,14.2,-4.0,-0.0262,0.9916,0.9916,flat
+medusa,rework edits (per 100 lines added),25,0.0137,0.0675,,0.00224,0.0845,0.0845,flat
+medusa,reimplementations (per KLOC added),25,0.046,0.173,,0.0053,0.1652,0.1652,flat
+medusa,share of follow-ups that are repairs,10,0.141,0.305,,0.00862,0.947,0.9470,flat
+n8n,production lines added per commit,22,10.0,70.2,600.0,2.87,0.0001,<0.0001,shown
+n8n,cyclomatic delta (per 100 production lines added),22,4.28,10.6,149.0,0.303,0.0005,0.0005,shown
+n8n,follow-ups (per change),22,0.619,1.48,138.0,0.0407,0.0081,0.0081,shown
+n8n,days to first follow-up,22,16.8,6.74,-60.0,-0.481,0.0011,0.0011,shown
+n8n,rework edits (per 100 lines added),22,0.132,0.196,48.0,0.00304,0.2924,0.2924,flat
+n8n,reimplementations (per KLOC added),22,0.105,0.154,46.0,0.00231,0.1085,0.1085,flat
+n8n,share of follow-ups that are repairs,7,0.0,0.0,,0.0,,—,unfitted
+lightdash,production lines added per commit,21,19.4,82.7,327.0,3.17,0.0011,0.0011,shown
+lightdash,cyclomatic delta (per 100 production lines added),21,3.55,9.39,165.0,0.292,0.0001,<0.0001,shown
+lightdash,rework edits (per 100 lines added),21,0.577,0.277,-52.0,-0.015,0.0093,0.0093,shown
+lightdash,days to first follow-up,21,6.7,3.33,-50.0,-0.169,0.1184,0.1184,flat
+lightdash,reimplementations (per KLOC added),21,0.246,0.134,-46.0,-0.00563,0.2525,0.2525,flat
+lightdash,follow-ups (per change),21,1.11,1.37,23.0,0.0128,0.385,0.3850,flat
+lightdash,share of follow-ups that are repairs,8,0.466,-0.00225,,-0.0335,0.4444,0.4444,flat
+appwrite,cyclomatic delta (per 100 production lines added),6,0.0,0.0,,0.0,,—,unfitted
+appwrite,production lines added per commit,6,0.0,0.0,,0.0,,—,unfitted
+appwrite,rework edits (per 100 lines added),6,0.0,0.0,,0.0,,—,unfitted
+appwrite,reimplementations (per KLOC added),6,0.0,0.0,,0.0,,—,unfitted
+appwrite,follow-ups (per change),6,0.0,0.0,,0.0,,—,unfitted
+appwrite,days to first follow-up,1,0.0,0.0,,0.0,,—,unfitted
+appwrite,share of follow-ups that are repairs,3,0.0,0.0,,0.0,,—,unfitted
+activepieces,cyclomatic delta (per 100 production lines added),21,5.72,8.68,52.0,0.148,0.0475,0.0475,shown
+activepieces,production lines added per commit,21,0.158,96.8,,4.83,0.0001,<0.0001,shown
+activepieces,rework edits (per 100 lines added),21,-0.00625,0.239,,0.0123,0.0016,0.0016,shown
+activepieces,follow-ups (per change),21,-0.118,1.47,,0.0792,0.0002,0.0002,shown
+activepieces,reimplementations (per KLOC added),21,0.0796,0.185,132.0,0.00526,0.0616,0.0616,flat
+activepieces,share of follow-ups that are repairs,10,0.19,0.104,-45.0,-0.00856,0.4533,0.4533,flat
+activepieces,days to first follow-up,19,5.41,11.0,,0.292,0.4291,0.4291,flat
+sentry,production lines added per commit,22,8.91,16.0,80.0,0.338,0.0005,0.0005,shown
+sentry,reimplementations (per KLOC added),22,0.334,0.0949,-72.0,-0.0114,0.0093,0.0093,shown
+sentry,cyclomatic delta (per 100 production lines added),22,3.57,5.86,64.0,0.109,0.0093,0.0093,shown
+sentry,days to first follow-up,22,13.5,6.86,-49.0,-0.317,0.0281,0.0281,shown
+sentry,follow-ups (per change),22,0.427,0.519,22.0,0.00442,0.2789,0.2789,flat
+sentry,rework edits (per 100 lines added),22,0.31,0.313,1.0,0.000129,0.6737,0.6737,flat
+sentry,share of follow-ups that are repairs,9,-3.8e-06,0.145,,0.0121,0.1315,0.1315,flat
+nocodb,production lines added per commit,25,10.5,41.6,297.0,1.3,0.0048,0.0048,shown
+nocodb,follow-ups (per change),25,0.108,-0.0439,-141.0,-0.00632,0.0005,0.0005,shown
+nocodb,rework edits (per 100 lines added),25,0.019,-0.00749,-140.0,-0.0011,0.0006,0.0006,shown
+nocodb,reimplementations (per KLOC added),25,0.39,0.052,-87.0,-0.0141,0.0635,0.0635,flat
+nocodb,cyclomatic delta (per 100 production lines added),25,8.0,11.1,38.0,0.128,0.3071,0.3071,flat
+nocodb,days to first follow-up,1,0.0,0.0,,0.0,,—,unfitted
+nocodb,share of follow-ups that are repairs,4,0.0,0.0,,0.0,,—,unfitted
+cal.com,rework edits (per 100 lines added),28,0.398,0.00154,-100.0,-0.0147,0.0001,<0.0001,shown
+cal.com,follow-ups (per change),28,1.16,0.228,-80.0,-0.0345,0.0012,0.0012,shown
+cal.com,production lines added per commit,28,26.0,12.1,-54.0,-0.517,0.0071,0.0071,shown
+cal.com,reimplementations (per KLOC added),28,0.32,0.16,-50.0,-0.00591,0.0274,0.0274,unestablished
+cal.com,cyclomatic delta (per 100 production lines added),27,6.44,-1.15,-118.0,-0.281,0.1741,0.1741,flat
+cal.com,days to first follow-up,21,16.1,16.6,3.0,0.0232,0.9213,0.9213,flat
+cal.com,share of follow-ups that are repairs,8,0.105,0.0617,,-0.00227,0.2901,0.2901,flat
+erpnext,production lines added per commit,25,-3.19,34.6,,1.58,0.0001,<0.0001,shown
+erpnext,follow-ups (per change),25,0.00452,0.0757,,0.00296,0.0494,0.0494,shown
+erpnext,rework edits (per 100 lines added),25,0.0533,0.0412,-23.0,-0.000507,0.9448,0.9448,flat
+erpnext,reimplementations (per KLOC added),25,0.618,0.487,-21.0,-0.00545,0.1106,0.1106,flat
+erpnext,cyclomatic delta (per 100 production lines added),25,8.77,9.47,8.0,0.0295,0.6783,0.6783,flat
+erpnext,days to first follow-up,7,0.0,0.0,,0.0,,—,unfitted
+erpnext,share of follow-ups that are repairs,7,0.0,0.0,,0.0,,—,unfitted
+infisical,production lines added per commit,15,50.8,109.0,114.0,4.16,0.0305,0.0305,shown
+infisical,rework edits (per 100 lines added),15,-0.00503,0.0793,,0.00603,0.0105,0.0105,shown
+infisical,follow-ups (per change),15,-0.0748,0.641,,0.0511,0.0048,0.0048,shown
+infisical,reimplementations (per KLOC added),15,0.373,0.0926,-75.0,-0.02,0.1445,0.1445,flat
+infisical,days to first follow-up,8,20.6,7.7,-63.0,-1.62,0.1546,0.1546,flat
+infisical,cyclomatic delta (per 100 production lines added),15,7.12,7.59,7.0,0.0335,0.711,0.7110,flat
+infisical,share of follow-ups that are repairs,6,0.0,0.0,,0.0,,—,unfitted
+mattermost,follow-ups (per change),29,0.175,0.754,331.0,0.0207,0.0001,<0.0001,shown
+mattermost,cyclomatic delta (per 100 production lines added),29,3.99,10.0,151.0,0.215,0.0008,0.0008,shown
+mattermost,reimplementations (per KLOC added),29,0.339,0.0318,-91.0,-0.011,0.0029,0.0029,shown
+mattermost,days to first follow-up,28,35.2,15.8,-55.0,-0.693,0.0154,0.0154,shown
+mattermost,rework edits (per 100 lines added),29,0.135,0.069,-49.0,-0.00237,0.004,0.0040,shown
+mattermost,production lines added per commit,29,3.61,98.3,,3.38,0.0001,<0.0001,shown
+mattermost,share of follow-ups that are repairs,10,-0.0192,0.082,,0.00482,0.1296,0.1296,flat
+twenty,production lines added per commit,21,52.0,95.3,83.0,2.16,0.0078,0.0078,shown
+twenty,cyclomatic delta (per 100 production lines added),21,3.19,5.32,67.0,0.106,0.0089,0.0089,shown
+twenty,rework edits (per 100 lines added),21,0.489,0.202,-59.0,-0.0143,0.001,0.0010,shown
+twenty,share of follow-ups that are repairs,11,0.128,0.0851,-34.0,-0.00309,0.2799,0.2799,flat
+twenty,reimplementations (per KLOC added),21,0.131,0.088,-33.0,-0.00215,1.0,1.0000,flat
+twenty,days to first follow-up,21,10.4,7.56,-27.0,-0.142,0.3926,0.3926,flat
+twenty,follow-ups (per change),21,2.42,2.51,4.0,0.00455,0.9281,0.9281,flat
+grafana,production lines added per commit,21,13.3,63.6,376.0,2.51,0.0001,<0.0001,shown
+grafana,cyclomatic delta (per 100 production lines added),21,4.09,7.5,84.0,0.171,0.0033,0.0033,shown
+grafana,days to first follow-up,21,14.9,10.3,-30.0,-0.227,0.6171,0.6171,flat
+grafana,reimplementations (per KLOC added),21,0.243,0.316,30.0,0.00363,0.3118,0.3118,flat
+grafana,rework edits (per 100 lines added),21,0.264,0.194,-26.0,-0.00349,0.3976,0.3976,flat
+grafana,follow-ups (per change),21,0.97,0.869,-10.0,-0.00502,0.8882,0.8882,flat
+grafana,share of follow-ups that are repairs,13,0.0232,0.119,,0.0053,0.5147,0.5147,flat

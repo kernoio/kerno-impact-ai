@@ -1,0 +1,46 @@
+repo,status,commits,bot_commits,bot_share,merge_commits,missing_date,dated_outside_window,outside_share,pr_linked,complexity_commits,complexity_commits_from_bots,production_paths,production_paths_lock_vendor_generated,nonprod_examples,kind_bugfix,kind_cleanup,kind_docs,kind_feature,kind_infrastructure,kind_refactor,kind_test
+Ghost,undated,9215,1087,0.118,7353,0,77,0.0084,7307,5542,0,39057,0,,89,355,117,5455,1726,172,1301
+activepieces,dated,6011,34,0.0057,5103,0,0,0.0,5019,4566,0,66831,9,packages/pieces/community/chargebee/src/lib/triggers/invoice-generated.ts; packages/pieces/community/pdfmonkey/src/lib/triggers/document-generated.ts; packages/web/src/app/routes/chat-with-ai/components/generated-image-card.tsx,1482,66,279,3167,522,310,185
+actual,dated,2375,107,0.0451,2368,0,0,0.0,2368,1803,0,14370,0,,358,43,234,1356,250,73,61
+amplication,undated,80,0,0.0,41,0,0,0.0,40,61,0,1825,0,,,4,1,30,45,,
+appsmith,dated,1216,13,0.0107,1165,0,0,0.0,1165,842,0,6927,0,,305,1,14,140,585,16,155
+appwrite,undated,1230,0,0.0,1215,0,0,0.0,1215,920,0,12957,1,packages/query/src/Schema/Column/Trait/Generated.php,38,30,64,723,125,42,208
+baserow,undated,2067,187,0.0905,2056,0,0,0.0,1219,1410,0,10015,0,,385,13,36,1133,334,42,124
+budibase,undated,2895,0,0.0,2403,0,0,0.0,2397,1608,0,9914,0,,59,116,20,1825,621,43,211
+cal.com,dated,6533,289,0.0442,6179,0,1,0.0002,6179,5074,0,41744,0,,2363,70,264,1511,1334,598,393
+directus,dated,1373,55,0.0401,1348,0,0,0.0,1348,697,0,4127,0,,330,43,74,502,270,11,143
+django-cms,dated,483,123,0.2547,475,0,0,0.0,475,286,0,943,0,,172,,78,46,135,4,48
+erpnext,undated,5647,200,0.0354,5621,0,0,0.0,5617,4461,0,13799,0,,1535,125,38,3382,258,262,47
+erxes,undated,2132,0,0.0,979,0,0,0.0,700,1849,0,62235,0,,708,24,139,902,285,68,6
+evershop,undated,267,0,0.0,207,0,0,0.0,206,233,0,6723,0,,44,4,4,180,19,7,9
+flagsmith,dated,2157,213,0.0987,2156,0,0,0.0,2156,1183,0,7529,0,,529,3,391,438,606,60,130
+focalboard,undated,3,1,0.3333,3,0,0,0.0,3,0,0,0,0,,,,1,,2,,
+formbricks,dated,2406,40,0.0166,2401,0,0,0.0,2398,1726,0,20738,0,,1075,2,237,329,565,66,132
+grafana,dated,17903,778,0.0435,17844,0,0,0.0,17844,9307,0,52516,795,apps/alerting/alertenrichment/pkg/apis/alertenrichment/v0alpha1/zz_generated.deepcopy.go; apps/alerting/alertenrichment/pkg/apis/alertenrichment/v0alpha1/zz_generated.defaults.go; apps/alerting/alertenrichment/pkg/apis/alertenrichment/v0alpha1/zz_generated.openapi.go,687,781,1385,10557,2721,549,1223
+hoppscotch,dated,755,1,0.0013,606,0,0,0.0,587,486,0,3180,0,,255,,11,173,272,18,26
+infisical,dated,3002,2,0.0007,2965,0,1,0.0003,2965,2391,0,35467,4,k8-operator/api/v1alpha1/zz_generated.deepcopy.go,184,85,374,2048,179,101,31
+jitsi-meet,undated,1814,75,0.0413,464,0,0,0.0,464,900,0,4048,0,,651,6,15,540,284,14,304
+keep,dated,1882,52,0.0276,1866,0,0,0.0,1866,1571,0,8195,6,keep/providers/cilium_provider/grpc/flow/flow_pb2.py; keep/providers/cilium_provider/grpc/flow/flow_pb2_grpc.py; keep/providers/cilium_provider/grpc/observer_pb2.py,993,,104,473,199,16,97
+lightdash,dated,15906,5441,0.3421,10543,0,0,0.0,10542,9295,0,52673,28,packages/frontend/src/features/scopeTours/generated.ts,3644,129,342,3973,6665,527,626
+mattermost,dated,4936,18,0.0036,4307,0,0,0.0,4307,3213,0,23108,3,webapp/channels/src/components/admin_console/generated_setting.tsx,350,180,141,3235,564,187,279
+medusa,undated,4112,296,0.072,3963,0,0,0.0,3963,2779,0,21512,0,,950,2,1408,543,1010,22,177
+n8n,dated,12999,31,0.0024,12977,0,0,0.0,12898,10137,0,66517,1,packages/@n8n/typeorm/src/decorator/Generated.ts,3772,3,197,3555,2074,1125,2273
+nango,dated,4073,378,0.0928,3571,0,0,0.0,3571,2359,0,15628,0,,1034,6,829,1099,923,89,93
+nocodb,undated,2778,1,0.0004,2778,0,0,0.0,2778,1943,0,11556,0,,320,72,54,2096,117,71,48
+novu,dated,5475,44,0.008,4691,0,0,0.0,4683,4257,0,52827,0,,1952,52,246,1584,1172,260,209
+outline,dated,3404,470,0.1381,3171,0,0,0.0,3163,2639,0,12595,0,,1377,27,14,823,839,172,152
+payload,dated,2603,7,0.0027,2442,0,0,0.0,2442,1937,0,17412,0,,924,6,216,407,420,125,505
+peppermint,undated,22,0,0.0,2,0,0,0.0,0,11,0,196,0,,2,,3,6,11,,
+plane,dated,1624,26,0.016,1181,0,0,0.0,1159,1345,0,40676,34,apps/web/components/api-token/modal/generated-token-details.tsx; apps/web/components/web-hooks/generated-hook-details.tsx; apps/web/core/components/api-token/modal/generated-token-details.tsx,226,38,37,850,250,170,53
+prefect,dated,4441,762,0.1716,4427,0,0,0.0,4427,2585,0,10662,0,,527,57,811,1726,749,85,486
+rallly,dated,2221,10,0.0045,1660,0,0,0.0,1660,1672,0,10361,0,,25,166,83,1724,123,73,27
+redash,dated,161,22,0.1366,126,0,0,0.0,126,106,0,527,0,,19,1,4,107,16,1,13
+sentry,dated,35187,634,0.018,34713,0,0,0.0,34675,15947,0,46492,0,,8308,1686,358,15820,4647,1095,3273
+strapi,dated,1325,151,0.114,1313,0,0,0.0,1262,879,0,6979,0,,379,5,40,285,369,3,244
+twenty,dated,11790,2111,0.1791,11751,0,0,0.0,11751,8666,0,180920,19,packages/twenty-cli/src/app/bundles/cover/generated-asset.type.ts; packages/twenty-cli/src/app/bundles/cover/generated-cover-path.ts; packages/twenty-sdk/scripts/remote-dom/generators/utils/generated-file-header.ts,2492,392,604,6429,813,558,502
+typebot.io,dated,929,0,0.0,198,0,0,0.0,198,723,0,8227,0,,45,37,116,549,110,43,29
+unleash,dated,2879,399,0.1386,2188,0,0,0.0,2174,2085,0,11985,0,,346,23,107,796,1311,116,180
+vendure,dated,1030,11,0.0107,596,0,0,0.0,311,657,0,4853,75,packages/admin-ui/src/lib/core/src/common/generated-types.ts; packages/common/src/generated-shop-types.ts; packages/common/src/generated-types.ts,190,4,250,365,118,21,82
+wagtail,undated,2744,77,0.0281,335,0,94,0.0343,335,1416,0,3408,0,,128,64,782,1100,171,89,410
+wiki,undated,260,0,0.0,1,0,0,0.0,1,216,0,2061,0,,67,,10,129,27,27,
+zulip,dated,9231,0,0.0,1,0,224,0.0243,1,5761,0,12412,0,,69,538,924,6055,346,535,764

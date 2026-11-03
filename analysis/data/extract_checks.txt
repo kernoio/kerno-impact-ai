@@ -1,0 +1,15 @@
+OK   repositories: extracted=46 pdf=46
+OK   total commits: extracted=201576 pdf=201576
+OK   dated repositories: extracted=30 pdf=30
+OK   undated repositories: extracted=15 pdf=15
+OK   total authors: extracted=6847 pdf=6847
+OK   before/after rows: extracted=330 pdf=330
+OK   before/after repos: extracted=30 pdf=30
+OK   trend rows: extracted=315 pdf=315
+OK   established trends (status=shown): extracted=88 pdf=88
+OK   sweep repos: extracted=45 pdf=45
+OK   sweep 2026-02 cyclomatic_delta_per100 worse/better: extracted=(35, 0) pdf=(35, 0)
+OK   sweep 2026-02 rework_edits worse/better: extracted=(13, 21) pdf=(13, 21)
+OK   sweep 2026-02 follow_ups worse/better: extracted=(23, 12) pdf=(23, 12)
+OK   sweep 2026-02 reimplementations worse/better: extracted=(12, 19) pdf=(12, 19)
+OK   sweep 2026-02 repair_share worse/better: extracted=(6, 16) pdf=(6, 16)

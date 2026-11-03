@@ -1,0 +1,48 @@
+{
+ "per_kloc_change": {
+  "n": 30,
+  "median": -33.86,
+  "ci": [
+   -42.13,
+   -18.92
+  ],
+  "rose": 8,
+  "fell": 22,
+  "p": 0.0161
+ },
+ "per_kloc_before_median": 2.6189067638626167,
+ "per_kloc_after_median": 1.683291561786906,
+ "monthly_before": {
+  "n": 24,
+  "median": 2.22,
+  "ci": [
+   -2.21,
+   4.59
+  ],
+  "rose": 14,
+  "fell": 10,
+  "p": 0.5413
+ },
+ "monthly_after": {
+  "n": 24,
+  "median": 0.99,
+  "ci": [
+   -4.73,
+   5.25
+  ],
+  "rose": 14,
+  "fell": 10,
+  "p": 0.5413
+ },
+ "monthly_diff": {
+  "n": 24,
+  "median": 0.33,
+  "ci": [
+   -8.67,
+   4.74
+  ],
+  "rose": 13,
+  "fell": 11,
+  "p": 0.8388
+ }
+}

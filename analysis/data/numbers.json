@@ -1,0 +1,4992 @@
+{
+ "repos": {
+  "value": "46",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "Matches the PDF header (46 repositories); checked in data/extract_checks.txt"
+ },
+ "commits": {
+  "value": "201,576",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "Matches the PDF (201,576); first-parent history of each default branch"
+ },
+ "authors": {
+  "value": "6,847",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "Matches the PDF (6,847). Sum over repos; a person active in two repos counts twice"
+ },
+ "authors_ai": {
+  "value": "1,152",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "Authors with ≥1 attributed commit; summed over repos (may double-count people)"
+ },
+ "dated": {
+  "value": "30",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "dated_commits": {
+  "value": "166,310",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "undated": {
+  "value": "15",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "declined": {
+  "value": "1",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "polonel/trudesk; the PDF gives no reason"
+ },
+ "ai_med": {
+  "value": "9.0%",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "Median attributed share over 30 dated repos. A floor, not a measurement"
+ },
+ "ai_min": {
+  "value": "1.8%",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ai_max": {
+  "value": "43.2%",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ai_undated_max": {
+  "value": "2.8%",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ai_weighted": {
+  "value": "10.8%",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "Commit-weighted over all 45 measured repos"
+ },
+ "adopt_feb26": {
+  "value": "9",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "Detected adoption months cluster"
+ },
+ "adopt_2025": {
+  "value": "11",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "adopt_2026": {
+  "value": "19",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "rule_step": {
+  "value": "27",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "rule_thresh": {
+  "value": "3",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "judge_usd": {
+  "value": "$1.26",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": "LLM judge spend for the whole run, as reported per repo in the PDF"
+ },
+ "ba_rows": {
+  "value": "330",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ba_asserted": {
+  "value": "125",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ba_withheld": {
+  "value": "24",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ba_excluded": {
+  "value": "181",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ex_pretrend": {
+  "value": "101",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ex_arm20": {
+  "value": "31",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ex_eff5": {
+  "value": "27",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "ex_p05": {
+  "value": "12",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "wh_ci0": {
+  "value": "22",
+  "source": "03_analysis.py → data/results.json:dataset",
+  "caveat": ""
+ },
+ "trend_series": {
+  "value": "315",
+  "source": "01_extract.py → data/trends.csv",
+  "caveat": "Matches '315 of 315 fitted series shown'"
+ },
+ "trend_established": {
+  "value": "88",
+  "source": "01_extract.py → data/trends.csv",
+  "caveat": "Matches the PDF's 88 established trends"
+ },
+ "c_sentry": {
+  "value": "35,187",
+  "source": "01_extract.py → data/repos.csv",
+  "caveat": ""
+ },
+ "c_djangocms": {
+  "value": "483",
+  "source": "01_extract.py → data/repos.csv",
+  "caveat": ""
+ },
+ "cyc_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "cyc_rose": {
+  "value": "27",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": ""
+ },
+ "cyc_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": ""
+ },
+ "cyc_med": {
+  "value": "+51.5%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": ""
+ },
+ "cyc_iqr": {
+  "value": "+28% to +80%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": ""
+ },
+ "cyc_ci": {
+  "value": "+32% to +72%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": ""
+ },
+ "cyc_mean": {
+  "value": "+62%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "cyc_p": {
+  "value": "p < 0.001",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | all rows]",
+  "caveat": ""
+ },
+ "cyc_an": {
+  "value": "15",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "cyc_amed": {
+  "value": "+56%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "cyc_arose": {
+  "value": "15",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | asserted]",
+  "caveat": ""
+ },
+ "cyc_afell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta (per 100 production lines added) | asserted]",
+  "caveat": ""
+ },
+ "cycc_n": {
+  "value": "21",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "cycc_rose": {
+  "value": "15",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": ""
+ },
+ "cycc_fell": {
+  "value": "1",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": ""
+ },
+ "cycc_med": {
+  "value": "+100%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": ""
+ },
+ "cycc_iqr": {
+  "value": "0% to +300%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": ""
+ },
+ "cycc_ci": {
+  "value": "+50% to +200%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": ""
+ },
+ "cycc_mean": {
+  "value": "+168%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "cycc_p": {
+  "value": "p < 0.001",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | all rows]",
+  "caveat": ""
+ },
+ "cycc_an": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "cycc_amed": {
+  "value": "—",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "cycc_arose": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | asserted]",
+  "caveat": ""
+ },
+ "cycc_afell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [cyclomatic delta per commit | asserted]",
+  "caveat": ""
+ },
+ "exc_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "exc_rose": {
+  "value": "24",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": ""
+ },
+ "exc_fell": {
+  "value": "6",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": ""
+ },
+ "exc_med": {
+  "value": "+14%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": ""
+ },
+ "exc_iqr": {
+  "value": "+2% to +32%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": ""
+ },
+ "exc_ci": {
+  "value": "+2% to +27%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": ""
+ },
+ "exc_mean": {
+  "value": "+36%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "exc_p": {
+  "value": "p = 0.001",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | all rows]",
+  "caveat": ""
+ },
+ "exc_an": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "exc_amed": {
+  "value": "—",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "exc_arose": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | asserted]",
+  "caveat": ""
+ },
+ "exc_afell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [excess complexity per KLOC | asserted]",
+  "caveat": ""
+ },
+ "lpc_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "lpc_rose": {
+  "value": "26",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": ""
+ },
+ "lpc_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": ""
+ },
+ "lpc_med": {
+  "value": "+63%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": ""
+ },
+ "lpc_iqr": {
+  "value": "+28% to +127%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": ""
+ },
+ "lpc_ci": {
+  "value": "+40% to +98%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": ""
+ },
+ "lpc_mean": {
+  "value": "+76%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "lpc_p": {
+  "value": "p < 0.001",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | all rows]",
+  "caveat": ""
+ },
+ "lpc_an": {
+  "value": "22",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "lpc_amed": {
+  "value": "+95%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "lpc_arose": {
+  "value": "21",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | asserted]",
+  "caveat": ""
+ },
+ "lpc_afell": {
+  "value": "1",
+  "source": "03_analysis.py → data/results_metric_summary.csv [production lines added per commit | asserted]",
+  "caveat": ""
+ },
+ "rw30_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "rw30_rose": {
+  "value": "8",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": ""
+ },
+ "rw30_fell": {
+  "value": "22",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": ""
+ },
+ "rw30_med": {
+  "value": "−16%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": ""
+ },
+ "rw30_iqr": {
+  "value": "−34% to +0%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": ""
+ },
+ "rw30_ci": {
+  "value": "−32% to −6%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": ""
+ },
+ "rw30_mean": {
+  "value": "−6%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "rw30_p": {
+  "value": "p = 0.02",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | all rows]",
+  "caveat": ""
+ },
+ "rw30_an": {
+  "value": "11",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "rw30_amed": {
+  "value": "−34%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "rw30_arose": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | asserted]",
+  "caveat": ""
+ },
+ "rw30_afell": {
+  "value": "11",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 30 days | asserted]",
+  "caveat": ""
+ },
+ "rw90_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "rw90_rose": {
+  "value": "5",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": ""
+ },
+ "rw90_fell": {
+  "value": "24",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": ""
+ },
+ "rw90_med": {
+  "value": "−26.5%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": ""
+ },
+ "rw90_iqr": {
+  "value": "−38% to −11%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": ""
+ },
+ "rw90_ci": {
+  "value": "−34% to −20%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": ""
+ },
+ "rw90_mean": {
+  "value": "−11%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "rw90_p": {
+  "value": "p < 0.001",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | all rows]",
+  "caveat": ""
+ },
+ "rw90_an": {
+  "value": "18",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "rw90_amed": {
+  "value": "−34%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "rw90_arose": {
+  "value": "1",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | asserted]",
+  "caveat": ""
+ },
+ "rw90_afell": {
+  "value": "17",
+  "source": "03_analysis.py → data/results_metric_summary.csv [lines rewritten within 90 days | asserted]",
+  "caveat": ""
+ },
+ "rwe_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "rwe_rose": {
+  "value": "12",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": ""
+ },
+ "rwe_fell": {
+  "value": "18",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": ""
+ },
+ "rwe_med": {
+  "value": "−19.5%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": ""
+ },
+ "rwe_iqr": {
+  "value": "−44% to +25%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": ""
+ },
+ "rwe_ci": {
+  "value": "−40% to +6%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": ""
+ },
+ "rwe_mean": {
+  "value": "+6%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "rwe_p": {
+  "value": "p = 0.36",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | all rows]",
+  "caveat": ""
+ },
+ "rwe_an": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "rwe_amed": {
+  "value": "+94.5%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "rwe_arose": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | asserted]",
+  "caveat": ""
+ },
+ "rwe_afell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [rework edits (per 100 lines added) | asserted]",
+  "caveat": ""
+ },
+ "fu_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "fu_rose": {
+  "value": "18",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": ""
+ },
+ "fu_fell": {
+  "value": "12",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": ""
+ },
+ "fu_med": {
+  "value": "+7.5%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": ""
+ },
+ "fu_iqr": {
+  "value": "−20% to +62%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": ""
+ },
+ "fu_ci": {
+  "value": "−5% to +41%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": ""
+ },
+ "fu_mean": {
+  "value": "+53%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "fu_p": {
+  "value": "p = 0.36",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | all rows]",
+  "caveat": ""
+ },
+ "fu_an": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "fu_amed": {
+  "value": "+132.5%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "fu_arose": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | asserted]",
+  "caveat": ""
+ },
+ "fu_afell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [follow-ups (per change) | asserted]",
+  "caveat": ""
+ },
+ "rep_n": {
+  "value": "28",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "rep_rose": {
+  "value": "7",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": ""
+ },
+ "rep_fell": {
+  "value": "21",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": ""
+ },
+ "rep_med": {
+  "value": "−23%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": ""
+ },
+ "rep_iqr": {
+  "value": "−51% to +0%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": ""
+ },
+ "rep_ci": {
+  "value": "−40% to −7%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": ""
+ },
+ "rep_mean": {
+  "value": "+4%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "rep_p": {
+  "value": "p = 0.01",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | all rows]",
+  "caveat": ""
+ },
+ "rep_an": {
+  "value": "21",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "rep_amed": {
+  "value": "−22%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "rep_arose": {
+  "value": "5",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | asserted]",
+  "caveat": ""
+ },
+ "rep_afell": {
+  "value": "16",
+  "source": "03_analysis.py → data/results_metric_summary.csv [share of follow-ups that are repairs | asserted]",
+  "caveat": ""
+ },
+ "reimp_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "reimp_rose": {
+  "value": "7",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": ""
+ },
+ "reimp_fell": {
+  "value": "23",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": ""
+ },
+ "reimp_med": {
+  "value": "−26.5%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": ""
+ },
+ "reimp_iqr": {
+  "value": "−47% to −1%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": ""
+ },
+ "reimp_ci": {
+  "value": "−40% to −3%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": ""
+ },
+ "reimp_mean": {
+  "value": "−9%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "reimp_p": {
+  "value": "p = 0.005",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | all rows]",
+  "caveat": ""
+ },
+ "reimp_an": {
+  "value": "23",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "reimp_amed": {
+  "value": "−34%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "reimp_arose": {
+  "value": "5",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | asserted]",
+  "caveat": ""
+ },
+ "reimp_afell": {
+  "value": "18",
+  "source": "03_analysis.py → data/results_metric_summary.csv [reimplementations (per KLOC added) | asserted]",
+  "caveat": ""
+ },
+ "dff_n": {
+  "value": "30",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": "Per-repo % change from the audit; repo is the unit. Median, IQR, bootstrap 95% CI of the median (10,000 resamples over repos), exact two-sided sign test on rose vs fell."
+ },
+ "dff_rose": {
+  "value": "12",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": ""
+ },
+ "dff_fell": {
+  "value": "18",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": ""
+ },
+ "dff_med": {
+  "value": "−15%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": ""
+ },
+ "dff_iqr": {
+  "value": "−36% to +9%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": ""
+ },
+ "dff_ci": {
+  "value": "−30% to +6%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": ""
+ },
+ "dff_mean": {
+  "value": "−3%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": "Mean shown only beside the median; skewed by outliers"
+ },
+ "dff_p": {
+  "value": "p = 0.36",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | all rows]",
+  "caveat": ""
+ },
+ "dff_an": {
+  "value": "3",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | asserted]",
+  "caveat": "Rows the audit asserted (passed every gate)"
+ },
+ "dff_amed": {
+  "value": "−38%",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | asserted]",
+  "caveat": "Reproduces the PDF headline table (p.6–7)"
+ },
+ "dff_arose": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | asserted]",
+  "caveat": ""
+ },
+ "dff_afell": {
+  "value": "3",
+  "source": "03_analysis.py → data/results_metric_summary.csv [days to first follow-up | asserted]",
+  "caveat": ""
+ },
+ "sens_dropped": {
+  "value": "infisical, redash, vendure",
+  "source": "03_analysis.py → results.json:sensitivity_dropped",
+  "caveat": "Repos with <200 commits or adoption in 2026-08 (after arm of one to two months)"
+ },
+ "sens_cyc": {
+  "value": "25 of 27 rose, median +56%, p < 0.001",
+  "source": "03_analysis.py → results.json:sensitivity",
+  "caveat": ""
+ },
+ "sens_rw90": {
+  "value": "3 of 27 rose, median −28%, p < 0.001",
+  "source": "03_analysis.py → results.json:sensitivity",
+  "caveat": ""
+ },
+ "sens_rw30": {
+  "value": "6 of 27 rose, median −16%, p = 0.006",
+  "source": "03_analysis.py → results.json:sensitivity",
+  "caveat": ""
+ },
+ "sens_reimp": {
+  "value": "6 of 27 rose, median −25%, p = 0.006",
+  "source": "03_analysis.py → results.json:sensitivity",
+  "caveat": ""
+ },
+ "sens_rep": {
+  "value": "6 of 26 rose, median −23%, p = 0.009",
+  "source": "03_analysis.py → results.json:sensitivity",
+  "caveat": ""
+ },
+ "sens_fu": {
+  "value": "15 of 27 rose, median +6%, p = 0.70",
+  "source": "03_analysis.py → results.json:sensitivity",
+  "caveat": ""
+ },
+ "sens_lpc": {
+  "value": "23 of 27 rose, median +63%, p < 0.001",
+  "source": "03_analysis.py → results.json:sensitivity",
+  "caveat": ""
+ },
+ "size_t1": {
+  "value": "1,882",
+  "source": "03_analysis.py → results.json:segment_thresholds",
+  "caveat": "Commit-count terciles of the 30 dated repos"
+ },
+ "size_t2": {
+  "value": "4,441",
+  "source": "03_analysis.py → results.json:segment_thresholds",
+  "caveat": ""
+ },
+ "seg_small_cyc": {
+  "value": "+46% (+18% to +92%; 8 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_small_lpc": {
+  "value": "+34% (+6% to +98%; 8 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_small_rw90": {
+  "value": "−43% (−66% to +14%; 4 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_small_fu": {
+  "value": "−22% (−65% to +104%; 4 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_small_reimp": {
+  "value": "−55% (−67% to +42%; 2 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_medium_cyc": {
+  "value": "+62% (+39% to +83%; 9 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_medium_lpc": {
+  "value": "+76% (+40% to +144%; 9 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_medium_rw90": {
+  "value": "−25% (−38% to −12%; 0 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_medium_fu": {
+  "value": "+10% (−10% to +92%; 7 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_medium_reimp": {
+  "value": "−9% (−40% to +38%; 3 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_large_cyc": {
+  "value": "+36% (+23% to +73%; 10 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_large_lpc": {
+  "value": "+95% (+24% to +138%; 9 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_large_rw90": {
+  "value": "−26% (−34% to −16%; 1 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_large_fu": {
+  "value": "+14% (−2% to +81%; 7 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_large_reimp": {
+  "value": "−20% (−32% to +3%; 2 of 10 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_aihi_cyc": {
+  "value": "+63% (+23% to +83%; 14 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_aihi_lpc": {
+  "value": "+63% (+40% to +100%; 12 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_aihi_rw90": {
+  "value": "−22% (−32% to −10%; 3 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_aihi_fu": {
+  "value": "+9% (−24% to +29%; 11 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_aihi_reimp": {
+  "value": "−24% (−48% to −1%; 3 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_ailo_cyc": {
+  "value": "+49% (+28% to +73%; 13 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_ailo_lpc": {
+  "value": "+68% (+39% to +141%; 14 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_ailo_rw90": {
+  "value": "−35% (−60% to −3%; 2 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_ailo_fu": {
+  "value": "−2% (−50% to +64%; 7 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_ailo_reimp": {
+  "value": "−29% (−58% to −1%; 4 of 15 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y25_cyc": {
+  "value": "+72% (+35% to +83%; 11 of 11 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y25_lpc": {
+  "value": "+40% (+5% to +100%; 9 of 11 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y25_rw90": {
+  "value": "−25% (−49% to −3%; 2 of 11 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y25_fu": {
+  "value": "+4% (−51% to +61%; 6 of 11 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y25_reimp": {
+  "value": "−25% (−58% to +7%; 3 of 11 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y26_cyc": {
+  "value": "+41% (+23% to +56%; 16 of 19 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y26_lpc": {
+  "value": "+85% (+42% to +141%; 17 of 19 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y26_rw90": {
+  "value": "−28% (−37% to −20%; 3 of 19 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y26_fu": {
+  "value": "+18% (−5% to +64%; 12 of 19 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "seg_y26_reimp": {
+  "value": "−29% (−45% to −1%; 4 of 19 rose)",
+  "source": "03_analysis.py → data/results_segments.csv",
+  "caveat": "Median with bootstrap 95% CI; n = 9–15 per group, so intervals are wide"
+ },
+ "dose_cyc": {
+  "value": "ρ = 0.22, permutation p = 0.25",
+  "source": "03_analysis.py → results.json:dose_response_ai_share_vs_change",
+  "caveat": "Spearman across dated repos, 10,000-permutation p. AI share is a floor, so this is attenuated"
+ },
+ "dose_lpc": {
+  "value": "ρ = 0.23, permutation p = 0.24",
+  "source": "03_analysis.py → results.json:dose_response_ai_share_vs_change",
+  "caveat": "Spearman across dated repos, 10,000-permutation p. AI share is a floor, so this is attenuated"
+ },
+ "dose_rw90": {
+  "value": "ρ = 0.36, permutation p = 0.05",
+  "source": "03_analysis.py → results.json:dose_response_ai_share_vs_change",
+  "caveat": "Spearman across dated repos, 10,000-permutation p. AI share is a floor, so this is attenuated"
+ },
+ "dose_fu": {
+  "value": "ρ = 0.09, permutation p = 0.62",
+  "source": "03_analysis.py → results.json:dose_response_ai_share_vs_change",
+  "caveat": "Spearman across dated repos, 10,000-permutation p. AI share is a floor, so this is attenuated"
+ },
+ "dose_reimp": {
+  "value": "ρ = 0.04, permutation p = 0.85",
+  "source": "03_analysis.py → results.json:dose_response_ai_share_vs_change",
+  "caveat": "Spearman across dated repos, 10,000-permutation p. AI share is a floor, so this is attenuated"
+ },
+ "dose_cyc_rho": {
+  "value": "= 0.22",
+  "source": "03_analysis.py → results.json:dose_response_ai_share_vs_change",
+  "caveat": "Spearman rho, AI share vs change in complexity density, dated projects"
+ },
+ "dose_trend": {
+  "value": "ρ = 0.21, permutation p = 0.20, n = 39",
+  "source": "03_analysis.py → results.json:trend_ai_share_vs_cyclomatic_slope",
+  "caveat": ""
+ },
+ "tr_cyc_all_fit": {
+  "value": "39",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_all_est": {
+  "value": "21",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_cyc_all_rose": {
+  "value": "21",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_all_fell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_all_pos": {
+  "value": "35",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_cyc_dated_fit": {
+  "value": "29",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_dated_est": {
+  "value": "16",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_cyc_dated_rose": {
+  "value": "16",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_dated_fell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_dated_pos": {
+  "value": "27",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_cyc_undated_fit": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_undated_est": {
+  "value": "5",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_cyc_undated_rose": {
+  "value": "5",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_undated_fell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_cyc_undated_pos": {
+  "value": "8",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_lpc_all_fit": {
+  "value": "39",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_all_est": {
+  "value": "26",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_lpc_all_rose": {
+  "value": "24",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_all_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_all_pos": {
+  "value": "33",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_lpc_dated_fit": {
+  "value": "29",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_dated_est": {
+  "value": "20",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_lpc_dated_rose": {
+  "value": "18",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_dated_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_dated_pos": {
+  "value": "24",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_lpc_undated_fit": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_undated_est": {
+  "value": "6",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_lpc_undated_rose": {
+  "value": "6",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_undated_fell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_lpc_undated_pos": {
+  "value": "9",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_rwe_all_fit": {
+  "value": "39",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_all_est": {
+  "value": "17",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_rwe_all_rose": {
+  "value": "4",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_all_fell": {
+  "value": "13",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_all_pos": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_rwe_dated_fit": {
+  "value": "29",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_dated_est": {
+  "value": "13",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_rwe_dated_rose": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_dated_fell": {
+  "value": "11",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_dated_pos": {
+  "value": "6",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_rwe_undated_fit": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_undated_est": {
+  "value": "4",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_rwe_undated_rose": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_undated_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_rwe_undated_pos": {
+  "value": "4",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_fu_all_fit": {
+  "value": "39",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_all_est": {
+  "value": "16",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_fu_all_rose": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_all_fell": {
+  "value": "6",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_all_pos": {
+  "value": "21",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_fu_dated_fit": {
+  "value": "29",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_dated_est": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_fu_dated_rose": {
+  "value": "6",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_dated_fell": {
+  "value": "4",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_dated_pos": {
+  "value": "14",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_fu_undated_fit": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_undated_est": {
+  "value": "6",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_fu_undated_rose": {
+  "value": "4",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_undated_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_fu_undated_pos": {
+  "value": "7",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_reimp_all_fit": {
+  "value": "39",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_all_est": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_reimp_all_rose": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_all_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_all_pos": {
+  "value": "15",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_reimp_dated_fit": {
+  "value": "29",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_dated_est": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_reimp_dated_rose": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_dated_fell": {
+  "value": "2",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_dated_pos": {
+  "value": "12",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_reimp_undated_fit": {
+  "value": "10",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_undated_est": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Established = audit gates: permutation p ≤ 0.05, ≥5% move, bootstrap keeps sign"
+ },
+ "tr_reimp_undated_rose": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_undated_fell": {
+  "value": "0",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": ""
+ },
+ "tr_reimp_undated_pos": {
+  "value": "3",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "Sign of every fitted slope, established or not"
+ },
+ "tr_cyc_all_series": {
+  "value": "44",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "codebases with a complexity-density monthly series"
+ },
+ "tr_cyc_all_noclear": {
+  "value": "18",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "fitted but no clear trend (flat or not established)"
+ },
+ "tr_cyc_all_unfit": {
+  "value": "5",
+  "source": "03_analysis.py → data/results_trends.csv",
+  "caveat": "too little monthly data to fit"
+ },
+ "tr_cyc_dated_medslope": {
+  "value": "+0.18",
+  "source": "trends.csv (median of fitted slopes; also fig10)",
+  "caveat": "Units: cyclomatic delta per 100 production lines, per month"
+ },
+ "tr_cyc_undated_medslope": {
+  "value": "+0.13",
+  "source": "trends.csv (median of fitted slopes; also fig10)",
+  "caveat": "Units: cyclomatic delta per 100 production lines, per month"
+ },
+ "sw_months": {
+  "value": "20",
+  "source": "02_sweep_bars.py → data/sweep_monthly.csv",
+  "caveat": "Counts recovered from the PDF's vector bars; alignment unique, rounding residual ≤ 0.03 repos (data/sweep_monthly_checks.txt)"
+ },
+ "sw_resid": {
+  "value": "0.03",
+  "source": "02_sweep_bars.py → data/sweep_monthly_checks.txt",
+  "caveat": "Largest gap between a bar's height in repositories and the nearest whole number"
+ },
+ "sw_cyc_wgt": {
+  "value": "20",
+  "source": "03_analysis.py → results.json:sweep",
+  "caveat": ""
+ },
+ "sw_cyc_maxright": {
+  "value": "4",
+  "source": "03_analysis.py → results.json:sweep",
+  "caveat": ""
+ },
+ "sw_cyc_maxwrong": {
+  "value": "35",
+  "source": "03_analysis.py → results.json:sweep",
+  "caveat": ""
+ },
+ "sw_rwe_rgt": {
+  "value": "20",
+  "source": "03_analysis.py → results.json:sweep",
+  "caveat": ""
+ },
+ "sw_fu_wgt": {
+  "value": "14",
+  "source": "03_analysis.py → results.json:sweep",
+  "caveat": ""
+ },
+ "sw_reimp_rgt": {
+  "value": "14",
+  "source": "03_analysis.py → results.json:sweep",
+  "caveat": ""
+ },
+ "sw_rep_rgt": {
+  "value": "16",
+  "source": "03_analysis.py → results.json:sweep",
+  "caveat": ""
+ },
+ "sw_cyc_feb": {
+  "value": "35",
+  "source": "01_extract.py check vs PDF sweep card (35 wrong / 0 right at 2026-02)",
+  "caveat": ""
+ },
+ "sw_cyc_feb_right": {
+  "value": "0",
+  "source": "01_extract.py check vs PDF sweep card",
+  "caveat": ""
+ },
+ "sw_cyc_feb_n": {
+  "value": "40",
+  "source": "Adoption date sweep.pdf p.1: '40 of 45 repositories produce at least one verdict at 2026-02'",
+  "caveat": ""
+ },
+ "fc_base": {
+  "value": "9.0",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Median fitted end level, 39 fitted repos"
+ },
+ "fc_n": {
+  "value": "39",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_ai_split": {
+  "value": "4.7%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Median AI share of the 39 fitted repos (includes undated repos, hence lower than the dated-only 9.0%)"
+ },
+ "fc_current_n": {
+  "value": "39",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_current_slope": {
+  "value": "+0.16",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Median monthly slope, cyclomatic delta per 100 production lines"
+ },
+ "fc_current_6": {
+  "value": "10.0 (9.8–10.4)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_current_6_pct": {
+  "value": "+11%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_current_6_pct_range": {
+  "value": "+9% to +15%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_current_12": {
+  "value": "10.9 (10.6–11.7)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_current_12_pct": {
+  "value": "+21%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_current_12_pct_range": {
+  "value": "+17% to +30%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_current_24": {
+  "value": "12.8 (12.1–14.4)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_current_24_pct": {
+  "value": "+42%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_current_24_pct_range": {
+  "value": "+34% to +60%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_accelerated_n": {
+  "value": "20",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_accelerated_slope": {
+  "value": "+0.20",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Median monthly slope, cyclomatic delta per 100 production lines"
+ },
+ "fc_accelerated_6": {
+  "value": "10.2 (9.9–10.8)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_accelerated_6_pct": {
+  "value": "+13%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_accelerated_6_pct_range": {
+  "value": "+9% to +19%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_accelerated_12": {
+  "value": "11.4 (10.7–12.5)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_accelerated_12_pct": {
+  "value": "+26%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_accelerated_12_pct_range": {
+  "value": "+19% to +38%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_accelerated_24": {
+  "value": "13.8 (12.4–15.9)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_accelerated_24_pct": {
+  "value": "+53%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_accelerated_24_pct_range": {
+  "value": "+37% to +76%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_controls_n": {
+  "value": "10",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_controls_slope": {
+  "value": "+0.02",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Median monthly slope, cyclomatic delta per 100 production lines"
+ },
+ "fc_controls_6": {
+  "value": "9.2 (8.0–9.5)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_controls_6_pct": {
+  "value": "+1%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_controls_6_pct_range": {
+  "value": "−12% to +5%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_controls_12": {
+  "value": "9.3 (6.9–10.0)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_controls_12_pct": {
+  "value": "+3%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_controls_12_pct_range": {
+  "value": "−23% to +11%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fc_controls_24": {
+  "value": "9.5 (4.8–10.9)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Range = bootstrap 95% CI of the median slope, not the spread of repositories. Linear extrapolation"
+ },
+ "fc_controls_24_pct": {
+  "value": "+5%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "fc_controls_24_pct_range": {
+  "value": "−46% to +21%",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "range as % change vs today, from the slope interval"
+ },
+ "fcl_current_12": {
+  "value": "54 (47–69)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Production lines per commit; linear extrapolation"
+ },
+ "fcl_current_24": {
+  "value": "70 (55–99)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Production lines per commit; linear extrapolation"
+ },
+ "fcl_accelerated_12": {
+  "value": "63 (46–73)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Production lines per commit; linear extrapolation"
+ },
+ "fcl_accelerated_24": {
+  "value": "87 (53–108)",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": "Production lines per commit; linear extrapolation"
+ },
+ "fcl_base": {
+  "value": "39",
+  "source": "04_forecast.py → data/forecast.json",
+  "caveat": ""
+ },
+ "x_so_n": {
+  "value": "30,000",
+  "source": "Stack Overflow 2026 Developer Survey press release (6 Oct 2026): 'over 30,000 responses'",
+  "caveat": "Self-selected Stack Overflow audience; unweighted"
+ },
+ "x_so_nouse": {
+  "value": "17.2%",
+  "source": "Stack Overflow 2026 press release: 'Only 17.2% say they do not use AI tools'",
+  "caveat": ""
+ },
+ "x_faros_weekly": {
+  "value": "60%",
+  "source": "Faros 2026, p.6",
+  "caveat": "Developers using AI weekly, up from 40%"
+ },
+ "x_so_use": {
+  "value": "82.8%",
+  "source": "Stack Overflow 2026 press release: 100% minus the 17.2% who 'do not use AI tools'",
+  "caveat": "Derived"
+ },
+ "x_so_assist": {
+  "value": "66%",
+  "source": "Stack Overflow 2026 press release: 'Coding assistants or coding agents are used by 66% of respondents'",
+  "caveat": ""
+ },
+ "x_so_lowrisk": {
+  "value": "16.3%",
+  "source": "survey.stackoverflow.co/2026/ai/data/ai-trust: 'I trust it for low-risk work tasks only' 16.3%",
+  "caveat": "n = 14,304"
+ },
+ "x_so_notrust": {
+  "value": "12.3%",
+  "source": "survey.stackoverflow.co/2026/ai/data/ai-trust: 'I do not trust it for most work tasks' 12.3%",
+  "caveat": "n = 14,304"
+ },
+ "x_so_attrib": {
+  "value": "78.7%",
+  "source": "Stack Overflow 2026 press release: '78.7% say that source attribution is important or very important'",
+  "caveat": ""
+ },
+ "x_so_daily": {
+  "value": "73%",
+  "source": "survey.stackoverflow.co/2026/ai: 'use coding assistants and agents daily (73%)'",
+  "caveat": "n = 10,926 respondents to that question"
+ },
+ "x_so_important": {
+  "value": "6.6%",
+  "source": "survey.stackoverflow.co/2026/ai/data/ai-trust: 'I trust it for many tasks, including important work decisions' 6.6%",
+  "caveat": "n = 14,304"
+ },
+ "x_so_verify": {
+  "value": "48%",
+  "source": "survey.stackoverflow.co/2026/ai/data/ai-trust: 'I trust it when I can easily verify the output' 48.0%",
+  "caveat": "n = 14,304"
+ },
+ "x_cisq_cpsq": {
+  "value": "$2.41 trillion",
+  "source": "CISQ, The Cost of Poor Software Quality in the US: A 2022 Report (H. Krasner), p.3",
+  "caveat": "US estimate for 2022; pre-dates AI coding tools"
+ },
+ "x_cisq_td": {
+  "value": "$1.52 trillion",
+  "source": "CISQ 2022 report, p.3–4: 'accumulated software Technical Debt (TD) has grown to ~$1.52 trillion'",
+  "caveat": "Approximate; pre-AI"
+ },
+ "x_cisq_time": {
+  "value": "33%",
+  "source": "CISQ 2022 report, p.4: '13.5 out of 41.1, or 33% of their time'",
+  "caveat": "Weekly developer hours spent addressing technical debt; cited survey, pre-AI"
+ },
+ "x_gc_share": {
+  "value": "24.1%",
+  "source": "GitClear, The Maintainability Gap (June 2026), p.7",
+  "caveat": "Estimated, heuristic attribution"
+ },
+ "x_gc_dup": {
+  "value": "+81%",
+  "source": "GitClear (June 2026), p.3",
+  "caveat": "Code block duplication, 2023 to 2026 YTD"
+ },
+ "x_gc_refactor": {
+  "value": "70%",
+  "source": "GitClear (June 2026), p.3 and p.14",
+  "caveat": "Moved (refactored) lines, baseline 2023 per p.14"
+ },
+ "x_gc_clone": {
+  "value": "57%",
+  "source": "GitClear (June 2026), p.15, citing Mo, Zhang et al. 2023",
+  "caveat": "Secondary citation"
+ },
+ "x_faros_pr": {
+  "value": "+51.3%",
+  "source": "Faros, AI Engineering Report 2026, p.13–14",
+  "caveat": "Low vs high AI-adoption quarters within teams"
+ },
+ "x_faros_inc": {
+  "value": "+242.7%",
+  "source": "Faros 2026, p.20–21",
+  "caveat": "Incidents per PR; not normalised for PR size (Faros p.21)"
+ },
+ "x_faros_noreview": {
+  "value": "+31.3%",
+  "source": "Faros 2026, p.16",
+  "caveat": "PRs merged with no review"
+ },
+ "x_faros_agentpr": {
+  "value": "under 1%",
+  "source": "Faros 2026, p.6",
+  "caveat": "PRs opened by agents"
+ },
+ "x_faros_accept": {
+  "value": "60%",
+  "source": "Faros 2026, p.6",
+  "caveat": "Acceptance rate of AI-generated code"
+ },
+ "x_scb_erosion": {
+  "value": "77%",
+  "source": "SlopCodeBench (arXiv:2603.24755v2), p.1",
+  "caveat": "Share of agent trajectories where structural erosion rose"
+ },
+ "x_scb_cc10": {
+  "value": "3.6 to 23.7",
+  "source": "SlopCodeBench, p.7",
+  "caveat": "Functions with CC ≥ 10 across a trajectory"
+ },
+ "x_scb_human": {
+  "value": "59%",
+  "source": "SlopCodeBench, p.8",
+  "caveat": "321 human repos more eroded after 2024 than before; authors call the shift small"
+ },
+ "x_rel_fail": {
+  "value": "19 versus 5",
+  "source": "Shafique, Miller, Heymann (2026), p.19",
+  "caveat": "Fuzzing failures, human originals vs AI rewrites"
+ },
+ "x_rel_tests": {
+  "value": "1,217 of 1,221",
+  "source": "Shafique, Miller, Heymann (2026), p.13",
+  "caveat": "Tests passed while 11 options were unimplemented"
+ },
+ "rq_bots": {
+  "value": "14,146",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": "timeline isBot flag"
+ },
+ "rq_bot_share": {
+  "value": "7.0%",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": ""
+ },
+ "rq_bot_max": {
+  "value": "34%",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": "lightdash (semantic-release-bot)"
+ },
+ "rq_cx_commits": {
+  "value": "127,544",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": "commits with production-code changes measured for complexity"
+ },
+ "rq_cx_bots": {
+  "value": "0",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": ""
+ },
+ "rq_paths": {
+  "value": "1,036,727",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": ""
+ },
+ "rq_gen": {
+  "value": "975",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": "Lockfile, vendor/dist or code-generator paths counted as production; manual review: mostly grafana zz_generated and vendure generated-types"
+ },
+ "rq_gen_share": {
+  "value": "0.1%",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": ""
+ },
+ "rq_outside": {
+  "value": "397",
+  "source": "11_raw_commits.py → data/raw_quality.csv",
+  "caveat": "author date outside the window (rebased or imported history)"
+ },
+ "rq_cov_low_n": {
+  "value": "8",
+  "source": "12_raw_analysis.py → raw_results.json:parser_coverage",
+  "caveat": "projects where < 90% of source files were readable by the complexity parser"
+ },
+ "rq_cov_min": {
+  "value": "58%",
+  "source": "12_raw_analysis.py → raw_results.json:parser_coverage",
+  "caveat": "wiki"
+ },
+ "rq_verify_rows": {
+  "value": "330",
+  "source": "10_raw_verify.py → data/raw_verify.txt",
+  "caveat": "PDF-extracted before/after rows identical to raw metrics.csv"
+ },
+ "rq_verify_trends": {
+  "value": "315",
+  "source": "10_raw_verify.py → data/raw_verify.txt",
+  "caveat": ""
+ },
+ "rq_ts": {
+  "value": "35",
+  "source": "12_raw_analysis.py → raw_results.json:languages",
+  "caveat": "primary language by function count in the last snapshot; TSX counted as TypeScript"
+ },
+ "rq_py": {
+  "value": "5",
+  "source": "12_raw_analysis.py → raw_results.json:languages",
+  "caveat": ""
+ },
+ "rq_go": {
+  "value": "3",
+  "source": "12_raw_analysis.py → raw_results.json:languages",
+  "caveat": ""
+ },
+ "rq_js": {
+  "value": "2",
+  "source": "12_raw_analysis.py → raw_results.json:languages",
+  "caveat": ""
+ },
+ "tp_team_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "Non-bot commits inside the audit window; contributor-week = distinct author email active in an ISO week"
+ },
+ "tp_team_rose": {
+  "value": "16",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_team_fell": {
+  "value": "14",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_team_med": {
+  "value": "+10%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_team_ci": {
+  "value": "−19% to +28%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_team_p": {
+  "value": "p = 0.86",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_commits_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "Non-bot commits inside the audit window; contributor-week = distinct author email active in an ISO week"
+ },
+ "tp_commits_rose": {
+  "value": "20",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_commits_fell": {
+  "value": "10",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_commits_med": {
+  "value": "+17%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_commits_ci": {
+  "value": "−1% to +35%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_commits_p": {
+  "value": "p = 0.10",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_pr_n": {
+  "value": "29",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "Non-bot commits inside the audit window; contributor-week = distinct author email active in an ISO week"
+ },
+ "tp_pr_rose": {
+  "value": "21",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_pr_fell": {
+  "value": "8",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_pr_med": {
+  "value": "+26%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_pr_ci": {
+  "value": "+5% to +46%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_pr_p": {
+  "value": "p = 0.02",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_lines_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "Non-bot commits inside the audit window; contributor-week = distinct author email active in an ISO week"
+ },
+ "tp_lines_rose": {
+  "value": "23",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_lines_fell": {
+  "value": "7",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_lines_med": {
+  "value": "+71%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_lines_ci": {
+  "value": "+26% to +116%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_lines_p": {
+  "value": "p = 0.005",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_bug_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "Non-bot commits inside the audit window; contributor-week = distinct author email active in an ISO week"
+ },
+ "tp_bug_rose": {
+  "value": "13",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_bug_fell": {
+  "value": "17",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_bug_med": {
+  "value": "−4%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_bug_ci": {
+  "value": "−16% to +6%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_bug_p": {
+  "value": "p = 0.58",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_test_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "Non-bot commits inside the audit window; contributor-week = distinct author email active in an ISO week"
+ },
+ "tp_test_rose": {
+  "value": "25",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_test_fell": {
+  "value": "5",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_test_med": {
+  "value": "+81%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_test_ci": {
+  "value": "+41% to +127%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_test_p": {
+  "value": "p < 0.001",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_revert_n": {
+  "value": "23",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "Non-bot commits inside the audit window; contributor-week = distinct author email active in an ISO week"
+ },
+ "tp_revert_rose": {
+  "value": "6",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_revert_fell": {
+  "value": "17",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_revert_med": {
+  "value": "−50%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_revert_ci": {
+  "value": "−61% to −21%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_revert_p": {
+  "value": "p = 0.03",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_team_before": {
+  "value": "8.2",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "median active contributors per week, before"
+ },
+ "tp_team_after": {
+  "value": "9.6",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_lines_before": {
+  "value": "293",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "median production lines per contributor-week, before"
+ },
+ "tp_lines_after": {
+  "value": "424",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_bug_before": {
+  "value": "24.9%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_bug_after": {
+  "value": "24.8%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_test_before": {
+  "value": "4.7%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "share of commits classified as test changes (changeKind = test)"
+ },
+ "tp_test_after": {
+  "value": "8.3%",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": ""
+ },
+ "tp_revert_zero": {
+  "value": "7",
+  "source": "12_raw_analysis.py → raw_results.json:throughput (per-repo rows: data/raw_throughput_changes.csv)",
+  "caveat": "repos with no reverts before adoption (no ratio)"
+ },
+ "rv_before": {
+  "value": "0.40%",
+  "source": "12_raw_analysis.py → raw_results.json:reverts_pooled",
+  "caveat": "302 of 75,064 commits"
+ },
+ "rv_after": {
+  "value": "0.35%",
+  "source": "12_raw_analysis.py → raw_results.json:reverts_pooled",
+  "caveat": "274 of 78,798 commits"
+ },
+ "hf_before": {
+  "value": "20",
+  "source": "12_raw_analysis.py → raw_results.json:reverts_pooled",
+  "caveat": "subjects mentioning hotfix"
+ },
+ "hf_after": {
+  "value": "13",
+  "source": "12_raw_analysis.py → raw_results.json:reverts_pooled",
+  "caveat": ""
+ },
+ "bf_n": {
+  "value": "100",
+  "source": "12_raw_analysis.py → raw_results.json:bugfix_precision",
+  "caveat": "hand-labelled by the analyst (an AI model) from subject lines; data/raw_kinds_labelled.csv"
+ },
+ "bf_prec": {
+  "value": "70%",
+  "source": "12_raw_analysis.py → raw_results.json:bugfix_precision",
+  "caveat": ""
+ },
+ "bf_prec_len": {
+  "value": "88%",
+  "source": "12_raw_analysis.py → raw_results.json:bugfix_precision",
+  "caveat": "counting 'unclear' as correct"
+ },
+ "bf_unclear": {
+  "value": "18",
+  "source": "12_raw_analysis.py → raw_results.json:bugfix_precision",
+  "caveat": ""
+ },
+ "bf_no": {
+  "value": "12",
+  "source": "12_raw_analysis.py → raw_results.json:bugfix_precision",
+  "caveat": ""
+ },
+ "sn_all_n": {
+  "value": "45",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": "Share of functions with cyclomatic complexity > 10, first vs last snapshot in the window"
+ },
+ "sn_all_rose": {
+  "value": "33",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_all_fell": {
+  "value": "11",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_all_med": {
+  "value": "+18%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_all_ci": {
+  "value": "+6% to +31%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_all_p": {
+  "value": "p = 0.001",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_dated_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_dated_rose": {
+  "value": "23",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_dated_fell": {
+  "value": "7",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_dated_med": {
+  "value": "+24%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_dated_ci": {
+  "value": "+6% to +33%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_dated_p": {
+  "value": "p = 0.005",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_undated_n": {
+  "value": "15",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_undated_rose": {
+  "value": "10",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_undated_fell": {
+  "value": "4",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_undated_med": {
+  "value": "+13%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_undated_ci": {
+  "value": "−1% to +54%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_undated_p": {
+  "value": "p = 0.18",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_exc_n": {
+  "value": "45",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": "Excess complexity per KLOC, whole tree, first vs last snapshot"
+ },
+ "sn_exc_rose": {
+  "value": "31",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_exc_fell": {
+  "value": "13",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_exc_med": {
+  "value": "+18%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_exc_ci": {
+  "value": "+5% to +30%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_exc_p": {
+  "value": "p = 0.010",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_lines_n": {
+  "value": "45",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": "Production lines in the tree, first vs last snapshot"
+ },
+ "sn_lines_rose": {
+  "value": "41",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_lines_fell": {
+  "value": "3",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_lines_med": {
+  "value": "+40%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_lines_ci": {
+  "value": "+24% to +91%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_lines_p": {
+  "value": "p < 0.001",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_level_first": {
+  "value": "1.9%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": "median share of functions above CC 10, first snapshot"
+ },
+ "sn_level_last": {
+  "value": "2.7%",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_pace_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": "dated repos with >= 3 months of snapshots on each side of adoption"
+ },
+ "sn_pace_faster": {
+  "value": "20",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_pace_before": {
+  "value": "0.013",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": "median percentage-point change in the complex-function share per month, before adoption"
+ },
+ "sn_pace_after": {
+  "value": "0.025",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "sn_pace_p": {
+  "value": "p = 0.10",
+  "source": "12_raw_analysis.py → raw_results.json:snapshots (per-repo: data/raw_snapshots.csv)",
+  "caveat": ""
+ },
+ "lang_cyc_ts": {
+  "value": "+51% (21 of 24 rose)",
+  "source": "12_raw_analysis.py → raw_results.json:language_segments",
+  "caveat": ""
+ },
+ "lang_cyc_other": {
+  "value": "+57% (6 of 6 rose)",
+  "source": "12_raw_analysis.py → raw_results.json:language_segments",
+  "caveat": ""
+ },
+ "lang_other_list": {
+  "value": "django-cms, grafana, mattermost, prefect, redash, sentry",
+  "source": "12_raw_analysis.py → raw_results.json:language_other_dated",
+  "caveat": ""
+ },
+ "wi_cyc_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": "Projects with >= 20 AI-labelled commits; after period for dated repos, whole window for undated"
+ },
+ "wi_cyc_rose": {
+  "value": "19",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_cyc_fell": {
+  "value": "11",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_cyc_med": {
+  "value": "+8%",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_cyc_ci": {
+  "value": "−1% to +19%",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_cyc_p": {
+  "value": "p = 0.20",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_rw_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_rw_rose": {
+  "value": "15",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_rw_fell": {
+  "value": "15",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_rw_med": {
+  "value": "−3%",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_rw_ci": {
+  "value": "−20% to +32%",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_rw_p": {
+  "value": "p = 1.00",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_fu_n": {
+  "value": "30",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_fu_rose": {
+  "value": "23",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_fu_fell": {
+  "value": "7",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_fu_med": {
+  "value": "+45%",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_fu_ci": {
+  "value": "+28% to +73%",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_fu_p": {
+  "value": "p = 0.005",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wi_fu_sig_hi": {
+  "value": "12",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": "projects where the audit's own test is p <= 0.05, AI-labelled higher"
+ },
+ "wi_fu_sig_lo": {
+  "value": "2",
+  "source": "12_raw_analysis.py → raw_results.json:within (audit withinPeriod rows: data/raw_within.csv)",
+  "caveat": ""
+ },
+ "wd_fu_n": {
+  "value": "26",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": "AI-attributed vs unattributed, same codebase and period"
+ },
+ "wd_fu_rose": {
+  "value": "20",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_fu_fell": {
+  "value": "6",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_fu_med": {
+  "value": "+43%",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_fu_ci": {
+  "value": "+26% to +53%",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_fu_p": {
+  "value": "p = 0.009",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_cyc_n": {
+  "value": "26",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_cyc_rose": {
+  "value": "15",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_cyc_fell": {
+  "value": "11",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_cyc_med": {
+  "value": "+5%",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_cyc_ci": {
+  "value": "−2% to +12%",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "wd_cyc_p": {
+  "value": "p = 0.56",
+  "source": "12_raw_analysis.py → raw_results.json:within_dated (codebases with an adoption date, after adoption)",
+  "caveat": ""
+ },
+ "fd_size_n": {
+  "value": "27",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": "median production lines per commit, AI-attributed vs unattributed"
+ },
+ "fd_size_rose": {
+  "value": "23",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_size_fell": {
+  "value": "4",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_size_med": {
+  "value": "+42%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_size_ci": {
+  "value": "+25% to +77%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_size_p": {
+  "value": "p < 0.001",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_lines_n": {
+  "value": "26",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": "follow-ups per 100 lines, AI-attributed vs unattributed"
+ },
+ "fd_lines_rose": {
+  "value": "17",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_lines_fell": {
+  "value": "9",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_lines_med": {
+  "value": "+15%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_lines_ci": {
+  "value": "−5% to +28%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_lines_p": {
+  "value": "p = 0.17",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_change_n": {
+  "value": "26",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_change_rose": {
+  "value": "20",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_change_fell": {
+  "value": "6",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_change_med": {
+  "value": "+43%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_change_ci": {
+  "value": "+27% to +52%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fd_change_p": {
+  "value": "p = 0.009",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size_dated",
+  "caveat": ""
+ },
+ "fs_change_n": {
+  "value": "30",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": "recomputed from raw follow-up rows; excludes sweeps, reverts, hot files"
+ },
+ "fs_change_rose": {
+  "value": "23",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_change_fell": {
+  "value": "7",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_change_med": {
+  "value": "+44%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_change_ci": {
+  "value": "+29% to +68%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_change_p": {
+  "value": "p = 0.005",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_lines_n": {
+  "value": "30",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": "follow-ups per 100 production lines added"
+ },
+ "fs_lines_rose": {
+  "value": "20",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_lines_fell": {
+  "value": "10",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_lines_med": {
+  "value": "+17%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_lines_ci": {
+  "value": "+2% to +33%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_lines_p": {
+  "value": "p = 0.10",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_size_n": {
+  "value": "31",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": "median production lines added per commit, AI-labelled vs unlabelled"
+ },
+ "fs_size_rose": {
+  "value": "25",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_size_fell": {
+  "value": "6",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_size_med": {
+  "value": "+41%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_size_ci": {
+  "value": "+22% to +73%",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "fs_size_p": {
+  "value": "p < 0.001",
+  "source": "13_raw_followups_size.py → raw_results.json:followups_size (data/raw_followups_size.csv)",
+  "caveat": ""
+ },
+ "rho_est": {
+  "value": "ρ = 0.04, n = 21",
+  "source": "12_raw_analysis.py → raw_results.json",
+  "caveat": "matches benchmark README (+0.04)"
+ },
+ "rho_fit": {
+  "value": "ρ = 0.21, n = 39",
+  "source": "12_raw_analysis.py → raw_results.json",
+  "caveat": ""
+ },
+ "cf_repos": {
+  "value": "32",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": "repos with >= 20 bug-fix follow-up events"
+ },
+ "cf_commits": {
+  "value": "89,500",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": "non-bot commits with >= 5 production lines"
+ },
+ "cf_events": {
+  "value": "9,578",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_fix_n": {
+  "value": "32",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": "Mantel-Haenszel risk ratio within size deciles, high vs low complexity density; outcome = later edit by a bug-fix commit within 90 days"
+ },
+ "cf_fix_rose": {
+  "value": "16",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_fix_fell": {
+  "value": "16",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_fix_med": {
+  "value": "+3%",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_fix_ci": {
+  "value": "−8% to +23%",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_fix_p": {
+  "value": "p = 1.00",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_any_n": {
+  "value": "32",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": "same design, outcome = any later follow-up edit"
+ },
+ "cf_any_rose": {
+  "value": "17",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_any_fell": {
+  "value": "15",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_any_med": {
+  "value": "+1%",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_any_ci": {
+  "value": "−4% to +7%",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cf_any_p": {
+  "value": "p = 0.86",
+  "source": "14_raw_complexity_fixes.py → raw_results.json:complexity_fixes (per repo: data/raw_complexity_fixes.csv)",
+  "caveat": ""
+ },
+ "cft_fix_n": {
+  "value": "31",
+  "source": "06_numbers.py from data/raw_complexity_fixes.csv (trend group, >= 20 fix events)",
+  "caveat": "Mantel-Haenszel risk ratio within size deciles, restricted to codebases with a fitted complexity trend"
+ },
+ "cft_fix_rose": {
+  "value": "16",
+  "source": "06_numbers.py from data/raw_complexity_fixes.csv (trend group, >= 20 fix events)",
+  "caveat": ""
+ },
+ "cft_fix_fell": {
+  "value": "15",
+  "source": "06_numbers.py from data/raw_complexity_fixes.csv (trend group, >= 20 fix events)",
+  "caveat": ""
+ },
+ "cft_fix_med": {
+  "value": "+7%",
+  "source": "06_numbers.py from data/raw_complexity_fixes.csv (trend group, >= 20 fix events)",
+  "caveat": ""
+ },
+ "cft_fix_ci": {
+  "value": "−5% to +23%",
+  "source": "06_numbers.py from data/raw_complexity_fixes.csv (trend group, >= 20 fix events)",
+  "caveat": ""
+ },
+ "cft_fix_p": {
+  "value": "p = 1.00",
+  "source": "06_numbers.py from data/raw_complexity_fixes.csv (trend group, >= 20 fix events)",
+  "caveat": ""
+ },
+ "ab_bug_n": {
+  "value": "30",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": "bug-fix share x commits per contributor-week, before vs after adoption"
+ },
+ "ab_bug_rose": {
+  "value": "19",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_bug_fell": {
+  "value": "11",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_bug_med": {
+  "value": "+14%",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_bug_ci": {
+  "value": "−5% to +36%",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_bug_p": {
+  "value": "p = 0.20",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw30_n": {
+  "value": "30",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": "estimate: audit rewrite share x production lines per contributor-week"
+ },
+ "ab_rw30_rose": {
+  "value": "18",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw30_fell": {
+  "value": "12",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw30_med": {
+  "value": "+22%",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw30_ci": {
+  "value": "−15% to +80%",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw30_p": {
+  "value": "p = 0.36",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw90_n": {
+  "value": "30",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": "estimate: audit rewrite share x production lines per contributor-week"
+ },
+ "ab_rw90_rose": {
+  "value": "19",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw90_fell": {
+  "value": "11",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw90_med": {
+  "value": "+29%",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw90_ci": {
+  "value": "−13% to +78%",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "ab_rw90_p": {
+  "value": "p = 0.20",
+  "source": "15_raw_absolute.py → raw_results.json:absolute (per repo: data/raw_absolute.csv)",
+  "caveat": ""
+ },
+ "cs_dated": {
+  "value": "82%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "30 codebases, 166,310 of 201,576 commits"
+ },
+ "cs_undated": {
+  "value": "18%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "15 codebases, 35,266 of 201,576 commits"
+ },
+ "cs_trend_rise": {
+  "value": "71%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "21 codebases, 142,838 of 201,576 commits"
+ },
+ "cs_trend_fall": {
+  "value": "0%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "0 codebases, 0 of 201,576 commits"
+ },
+ "cs_trend_none": {
+  "value": "28%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "18 codebases, 56,982 of 201,576 commits"
+ },
+ "cs_trend_nodata": {
+  "value": "under 1%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "5 codebases, 1,753 of 201,576 commits"
+ },
+ "cs_cyc_rose": {
+  "value": "80%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "27 codebases, 160,359 of 201,576 commits"
+ },
+ "cs_cyc_fell": {
+  "value": "2%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "2 codebases, 4,626 of 201,576 commits"
+ },
+ "cs_lpc_rose": {
+  "value": "74%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "26 codebases, 149,431 of 201,576 commits"
+ },
+ "cs_rw90_fell": {
+  "value": "75%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "24 codebases, 151,815 of 201,576 commits"
+ },
+ "cs_tp_lines_rose": {
+  "value": "69%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "23 codebases, 139,817 of 201,576 commits"
+ },
+ "cs_tp_test_rose": {
+  "value": "70%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "25 codebases, 140,394 of 201,576 commits"
+ },
+ "cs_trend_fitted": {
+  "value": "99%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "39 codebases, 199,820 of 201,576 commits"
+ },
+ "cs_ab_rw30_rose": {
+  "value": "57%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "18 codebases, 114,062 of 201,576 commits"
+ },
+ "cs_ab_rw90_rose": {
+  "value": "57%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "19 codebases, 115,278 of 201,576 commits"
+ },
+ "cs_ab_bug_rose": {
+  "value": "45%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "19 codebases, 89,945 of 201,576 commits"
+ },
+ "cs_sn_rose": {
+  "value": "72%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "33 codebases, 145,703 of 201,576 commits"
+ },
+ "n_dated_commits": {
+  "value": "166,310",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "commits in the codebases with an AI adoption date"
+ },
+ "n_trend_commits": {
+  "value": "199,820",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": "commits in the codebases with a fitted complexity trend"
+ },
+ "n_trend_repos": {
+  "value": "39",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": ""
+ },
+ "cs_dated_exact": {
+  "value": "82.5%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": ""
+ },
+ "cs_undated_exact": {
+  "value": "17.5%",
+  "source": "16_commit_shares.py → data/commit_shares.json",
+  "caveat": ""
+ },
+ "mr_before_n": {
+  "value": "26",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "log-linear fit per project; months with >= 1000 production lines; >= 4 months per fit"
+ },
+ "mr_before_med": {
+  "value": "+0.7%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "steady monthly growth rate, exp(slope of log density) - 1; median across projects"
+ },
+ "mr_before_ci": {
+  "value": "−0.8% to +3.4%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_before_rose": {
+  "value": "15",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_before_fell": {
+  "value": "11",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_before_p": {
+  "value": "p = 0.56",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_after_n": {
+  "value": "26",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_after_med": {
+  "value": "+3.5%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "steady monthly growth rate, exp(slope of log density) - 1; median across projects"
+ },
+ "mr_after_ci": {
+  "value": "+1.7% to +5.4%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_after_rose": {
+  "value": "21",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_after_fell": {
+  "value": "5",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_after_p": {
+  "value": "p = 0.002",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_undated_n": {
+  "value": "10",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_undated_med": {
+  "value": "+1.9%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "steady monthly growth rate, exp(slope of log density) - 1; median across projects"
+ },
+ "mr_undated_ci": {
+  "value": "+0.8% to +5.9%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_undated_rose": {
+  "value": "10",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_undated_fell": {
+  "value": "0",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_undated_p": {
+  "value": "p = 0.002",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_all_n": {
+  "value": "39",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_all_med": {
+  "value": "+2.8%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "steady monthly growth rate, exp(slope of log density) - 1; median across projects"
+ },
+ "mr_all_ci": {
+  "value": "+2.2% to +3.8%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_all_rose": {
+  "value": "36",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_all_fell": {
+  "value": "3",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_all_p": {
+  "value": "p < 0.001",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_diff_med": {
+  "value": "+2.2 points",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "paired: after rate minus before rate, percentage points per month"
+ },
+ "mr_diff_ci": {
+  "value": "−2.1 to +5.8 points",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_diff_rose": {
+  "value": "16",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_diff_p": {
+  "value": "p = 0.33",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_months_before": {
+  "value": "11.5",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "median usable months before adoption"
+ },
+ "mr_months_after": {
+  "value": "9",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "median usable months after adoption"
+ },
+ "mr_sens_n": {
+  "value": "4",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "≥1 lines/month, ≥4 months: after +4.16% (p = 0.004), before +0.33% (p = 0.85), diff p = 0.09; ≥1000 lines/month, ≥3 months: after +3.53% (p = 0.004), before +1.11% (p = 0.34), diff p = 0.34; ≥1000 lines/month, ≥6 months: after +4.35% (p = 0.001), before +1.70% (p = 0.19), diff p = 0.66; ≥5000 lines/month, ≥4 months: after +4.86% (p = 0.001), before +3.35% (p = 0.24), diff p = 0.24"
+ },
+ "mr_sens_after_range": {
+  "value": "+3.5% to +4.9%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "after-adoption median across sensitivity variants"
+ },
+ "mr_sens_after_allclear": {
+  "value": "yes",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_sens_diff_anyclear": {
+  "value": "no",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": ""
+ },
+ "mr_after_annual": {
+  "value": "+52%",
+  "source": "17_monthly_rate.py → data/monthly_rate.json (per project: data/monthly_rate.csv)",
+  "caveat": "median monthly rate compounded over 12 months"
+ },
+ "mt_n": {
+  "value": "39",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "codebases with a fitted complexity trend and whole-tree snapshots"
+ },
+ "mt_cuts": {
+  "value": "4.1 / 7.2 / 9.6",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "quartiles of first-snapshot excess per KLOC: A ≤ c1 < B ≤ c2 < C ≤ c3 < D"
+ },
+ "mt_a_first": {
+  "value": "10",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_a_last": {
+  "value": "2",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_b_first": {
+  "value": "10",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_b_last": {
+  "value": "9",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_c_first": {
+  "value": "9",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_c_last": {
+  "value": "8",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_d_first": {
+  "value": "10",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_d_last": {
+  "value": "20",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_worse": {
+  "value": "21",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "baserow A→B; vendure A→B; medusa A→B; rallly A→B; twenty A→B; prefect B→C; strapi B→C; outline B→C; novu A→C; jitsi-meet B→C; activepieces A→D; evershop A→D; mattermost C→D; keep B→D; budibase C→D; django-cms C→D; sentry C→D; actual C→D; infisical B→D; hoppscotch B→D; lightdash B→D"
+ },
+ "mt_better": {
+  "value": "3",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "flagsmith C→B; erxes C→B; erpnext D→C"
+ },
+ "mt_same": {
+  "value": "15",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_two_worse": {
+  "value": "7",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "moved two or more grades"
+ },
+ "mt_exc_med": {
+  "value": "+20%",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "first vs last whole-tree snapshot"
+ },
+ "mt_exc_ci": {
+  "value": "+13% to +42%",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_exc_rose": {
+  "value": "28",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_exc_fell": {
+  "value": "11",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_exc_p": {
+  "value": "p = 0.009",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_cs_med": {
+  "value": "+22%",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "first vs last whole-tree snapshot"
+ },
+ "mt_cs_ci": {
+  "value": "+7% to +32%",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_cs_rose": {
+  "value": "29",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_cs_fell": {
+  "value": "9",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_cs_p": {
+  "value": "p = 0.002",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_cs_first": {
+  "value": "2.0%",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "median share of functions above cyclomatic 10"
+ },
+ "mt_cs_last": {
+  "value": "2.7%",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "mt_exc_first": {
+  "value": "7.2",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": "median excess complexity per 1,000 production lines"
+ },
+ "mt_exc_last": {
+  "value": "9.7",
+  "source": "18_maintainability.py → data/maintainability.json (per project: data/maintainability.csv)",
+  "caveat": ""
+ },
+ "lr_before_n": {
+  "value": "26",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": "monthly growth of production lines committed, before adoption"
+ },
+ "lr_before_med": {
+  "value": "+0.5%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_before_ci": {
+  "value": "−1.6% to +3.1%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_before_rose": {
+  "value": "13",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_before_fell": {
+  "value": "13",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_before_p": {
+  "value": "p = 1.00",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_after_n": {
+  "value": "26",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": "monthly growth of production lines committed, after adoption"
+ },
+ "lr_after_med": {
+  "value": "+5.5%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_after_ci": {
+  "value": "+2.6% to +10.0%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_after_rose": {
+  "value": "20",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_after_fell": {
+  "value": "6",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_after_p": {
+  "value": "p = 0.009",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_diff_n": {
+  "value": "26",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": "after minus before, percentage points"
+ },
+ "lr_diff_med": {
+  "value": "+3.8 points",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_diff_ci": {
+  "value": "+0.4 to +8.0 points",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_diff_rose": {
+  "value": "18",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_diff_fell": {
+  "value": "8",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_diff_p": {
+  "value": "p = 0.08",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_all_n": {
+  "value": "39",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": "whole window, trend group"
+ },
+ "lr_all_med": {
+  "value": "+5.2%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_all_ci": {
+  "value": "+2.3% to +7.3%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_all_rose": {
+  "value": "31",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_all_fell": {
+  "value": "8",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_all_p": {
+  "value": "p < 0.001",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_after_n": {
+  "value": "26",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": "monthly growth of production lines per active author, after adoption"
+ },
+ "lra_after_med": {
+  "value": "+5.0%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_after_ci": {
+  "value": "+2.7% to +8.1%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_after_rose": {
+  "value": "19",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_after_fell": {
+  "value": "7",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_after_p": {
+  "value": "p = 0.03",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_before_n": {
+  "value": "26",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_before_med": {
+  "value": "+0.6%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_before_ci": {
+  "value": "−2.3% to +2.2%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_before_rose": {
+  "value": "15",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_before_fell": {
+  "value": "11",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lra_before_p": {
+  "value": "p = 0.56",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": ""
+ },
+ "lr_after_annual": {
+  "value": "+90%",
+  "source": "19_lines_rate.py → data/lines_rate.json",
+  "caveat": "median monthly rate compounded over 12 months"
+ },
+ "nl90_n": {
+  "value": "30",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": "production lines per contributor-week surviving 90 days, before vs after"
+ },
+ "nl90_med": {
+  "value": "+75%",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl90_ci": {
+  "value": "+33% to +130%",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl90_rose": {
+  "value": "23",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl90_fell": {
+  "value": "7",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl90_p": {
+  "value": "p = 0.005",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl30_n": {
+  "value": "30",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl30_med": {
+  "value": "+72%",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl30_ci": {
+  "value": "+29% to +123%",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl30_rose": {
+  "value": "23",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl30_fell": {
+  "value": "7",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "nl30_p": {
+  "value": "p = 0.005",
+  "source": "20_net_lines.py → data/net_lines.json",
+  "caveat": ""
+ },
+ "bk_kloc_n": {
+  "value": "30",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": "bug-fix commits per 1,000 production lines added; falls mechanically as commits get bigger"
+ },
+ "bk_kloc_med": {
+  "value": "−34%",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_kloc_ci": {
+  "value": "−42% to −19%",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_kloc_rose": {
+  "value": "8",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_kloc_fell": {
+  "value": "22",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_kloc_p": {
+  "value": "p = 0.02",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_before_n": {
+  "value": "24",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": "monthly growth of bug-fix commits"
+ },
+ "bk_rate_before_med": {
+  "value": "+2.2%",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_before_ci": {
+  "value": "−2.2% to +4.6%",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_before_rose": {
+  "value": "14",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_before_fell": {
+  "value": "10",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_before_p": {
+  "value": "p = 0.54",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_after_n": {
+  "value": "24",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_after_med": {
+  "value": "+1.0%",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_after_ci": {
+  "value": "−4.7% to +5.2%",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_after_rose": {
+  "value": "14",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_after_fell": {
+  "value": "10",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_after_p": {
+  "value": "p = 0.54",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_diff_n": {
+  "value": "24",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_diff_med": {
+  "value": "+0.3 points",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_diff_ci": {
+  "value": "−8.7 to +4.7 points",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_diff_rose": {
+  "value": "13",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_diff_fell": {
+  "value": "11",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "bk_rate_diff_p": {
+  "value": "p = 0.84",
+  "source": "21_bugfix_rates.py → data/bugfix_rates.json",
+  "caveat": ""
+ },
+ "sz_growth_n": {
+  "value": "39",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "production lines in the whole tree, first vs last snapshot, trend group"
+ },
+ "sz_growth_med": {
+  "value": "+40%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_growth_ci": {
+  "value": "+24% to +102%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_growth_rose": {
+  "value": "36",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_growth_fell": {
+  "value": "3",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_growth_p": {
+  "value": "p < 0.001",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_months": {
+  "value": "22.5",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "median months between first and last snapshot"
+ },
+ "sz_first": {
+  "value": "230k",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "median production lines, first snapshot"
+ },
+ "sz_last": {
+  "value": "350k",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "median production lines, last snapshot"
+ },
+ "sz_rate_n": {
+  "value": "39",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "monthly growth of the whole tree"
+ },
+ "sz_rate_med": {
+  "value": "+1.8%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_ci": {
+  "value": "+1.0% to +2.8%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_rose": {
+  "value": "35",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_fell": {
+  "value": "4",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_p": {
+  "value": "p < 0.001",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_before_n": {
+  "value": "30",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_before_med": {
+  "value": "+1.8%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_before_ci": {
+  "value": "+0.8% to +2.5%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_before_rose": {
+  "value": "27",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_before_fell": {
+  "value": "3",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_before_p": {
+  "value": "p < 0.001",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_after_n": {
+  "value": "30",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_after_med": {
+  "value": "+1.2%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_after_ci": {
+  "value": "+0.5% to +3.2%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_after_rose": {
+  "value": "26",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_after_fell": {
+  "value": "4",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_after_p": {
+  "value": "p < 0.001",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_diff_n": {
+  "value": "30",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_diff_med": {
+  "value": "+0.3 points",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_diff_ci": {
+  "value": "−0.3 to +1.0 points",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_diff_rose": {
+  "value": "16",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_diff_fell": {
+  "value": "14",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "sz_rate_diff_p": {
+  "value": "p = 0.86",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "ext_before": {
+  "value": "58%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "median share of confident follow-up verdicts that are extensions"
+ },
+ "ext_after": {
+  "value": "71%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "rep_before_lvl": {
+  "value": "15%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "median share of confident follow-up verdicts that are repairs"
+ },
+ "rep_after_lvl": {
+  "value": "11%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "ext_chg_n": {
+  "value": "30",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "ext_chg_med": {
+  "value": "+11%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "ext_chg_ci": {
+  "value": "−0% to +24%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "ext_chg_rose": {
+  "value": "20",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "ext_chg_fell": {
+  "value": "10",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "ext_chg_p": {
+  "value": "p = 0.10",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "repx_chg_n": {
+  "value": "28",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "our recount from verdicts; audit's own figure is rep_med"
+ },
+ "repx_chg_med": {
+  "value": "−27%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "repx_chg_ci": {
+  "value": "−36% to −7%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "repx_chg_rose": {
+  "value": "7",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "repx_chg_fell": {
+  "value": "21",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "repx_chg_p": {
+  "value": "p = 0.01",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "aij_n": {
+  "value": "18",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "codebases with >= 10 confident verdicts in each arm after adoption"
+ },
+ "aij_rep_ai": {
+  "value": "11%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "aij_rep_un": {
+  "value": "11%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "aij_ext_ai": {
+  "value": "70%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "aij_ext_un": {
+  "value": "67%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "aij_rep_p": {
+  "value": "p = 0.48",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "aij_ext_p": {
+  "value": "p = 1.00",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_cw_n": {
+  "value": "30",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "test-change commits per active contributor-week, before vs after"
+ },
+ "tc_cw_med": {
+  "value": "+107%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_cw_ci": {
+  "value": "+62% to +179%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_cw_rose": {
+  "value": "29",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_cw_fell": {
+  "value": "1",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_cw_p": {
+  "value": "p < 0.001",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_kloc_n": {
+  "value": "30",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "test-change commits per 1,000 production lines added"
+ },
+ "tc_kloc_med": {
+  "value": "+34%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_kloc_ci": {
+  "value": "−11% to +85%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_kloc_rose": {
+  "value": "17",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_kloc_fell": {
+  "value": "13",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_kloc_p": {
+  "value": "p = 0.58",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_rate_after_n": {
+  "value": "17",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "monthly growth of test commits after adoption"
+ },
+ "tc_rate_after_med": {
+  "value": "+4.1%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_rate_after_ci": {
+  "value": "+1.2% to +18.7%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_rate_after_rose": {
+  "value": "13",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_rate_after_fell": {
+  "value": "4",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_rate_after_p": {
+  "value": "p = 0.05",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_line_after_n": {
+  "value": "17",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "monthly growth of production lines, same codebases"
+ },
+ "tc_line_after_med": {
+  "value": "+5.1%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_line_after_ci": {
+  "value": "+0.0% to +11.0%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_line_after_rose": {
+  "value": "13",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_line_after_fell": {
+  "value": "4",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_line_after_p": {
+  "value": "p = 0.05",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_gap_n": {
+  "value": "17",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "test growth minus line growth, percentage points"
+ },
+ "tc_gap_med": {
+  "value": "−1.0 points",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_gap_ci": {
+  "value": "−2.7 to +2.6 points",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_gap_rose": {
+  "value": "7",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_gap_fell": {
+  "value": "10",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tc_gap_p": {
+  "value": "p = 0.63",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_undated_n": {
+  "value": "8",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "monthly growth of test-commit share, no adoption date, whole window"
+ },
+ "tsr_undated_med": {
+  "value": "+3.3%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_undated_ci": {
+  "value": "+1.8% to +4.0%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_undated_rose": {
+  "value": "8",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_undated_fell": {
+  "value": "0",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_undated_p": {
+  "value": "p = 0.008",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_before_n": {
+  "value": "25",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_before_med": {
+  "value": "+2.5%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_before_ci": {
+  "value": "−0.5% to +4.2%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_before_rose": {
+  "value": "17",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_before_fell": {
+  "value": "8",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_before_p": {
+  "value": "p = 0.11",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_after_n": {
+  "value": "25",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_after_med": {
+  "value": "+4.8%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_after_ci": {
+  "value": "+2.9% to +8.8%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_after_rose": {
+  "value": "22",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_after_fell": {
+  "value": "3",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "tsr_after_p": {
+  "value": "p < 0.001",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "lr_undated_n": {
+  "value": "10",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": "monthly growth of production lines committed, no adoption date, whole window"
+ },
+ "lr_undated_med": {
+  "value": "+5.0%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "lr_undated_ci": {
+  "value": "+1.2% to +11.0%",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "lr_undated_rose": {
+  "value": "9",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "lr_undated_fell": {
+  "value": "1",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "lr_undated_p": {
+  "value": "p = 0.02",
+  "source": "22_sprawl_extension_tests.py → data/sprawl_extension_tests.json",
+  "caveat": ""
+ },
+ "cyc_lvl_before": {
+  "value": "5.2",
+  "source": "data/before_after.csv (audit before/after rows), median across codebases with an adoption date",
+  "caveat": "decision points per 100 production lines added"
+ },
+ "cyc_lvl_after": {
+  "value": "8.1",
+  "source": "data/before_after.csv (audit before/after rows), median across codebases with an adoption date",
+  "caveat": ""
+ },
+ "rw90_lvl_before": {
+  "value": "18.4%",
+  "source": "data/before_after.csv (audit before/after rows), median across codebases with an adoption date",
+  "caveat": "share of added lines rewritten or deleted within 90 days"
+ },
+ "rw90_lvl_after": {
+  "value": "11.7%",
+  "source": "data/before_after.csv (audit before/after rows), median across codebases with an adoption date",
+  "caveat": ""
+ },
+ "ms_codebases": {
+  "value": "27",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "codebases with an adoption date and >= 3 baseline months; index 100 = own mean of months -6..-1"
+ },
+ "ms_m12": {
+  "value": "68",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month -12"
+ },
+ "ms_m12_n": {
+  "value": "22",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_m12_pct": {
+  "value": "−32%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month -12"
+ },
+ "ms_m8": {
+  "value": "102",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month -8"
+ },
+ "ms_m8_n": {
+  "value": "26",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_m8_pct": {
+  "value": "+2%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month -8"
+ },
+ "ms_m1": {
+  "value": "101",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month -1"
+ },
+ "ms_m1_n": {
+  "value": "26",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_m1_pct": {
+  "value": "+1%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month -1"
+ },
+ "ms_p0": {
+  "value": "115",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month +0"
+ },
+ "ms_p0_n": {
+  "value": "27",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_p0_pct": {
+  "value": "+15%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month +0"
+ },
+ "ms_p1": {
+  "value": "134",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month +1"
+ },
+ "ms_p1_n": {
+  "value": "25",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_p1_pct": {
+  "value": "+34%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month +1"
+ },
+ "ms_p6": {
+  "value": "149",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month +6"
+ },
+ "ms_p6_n": {
+  "value": "21",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_p6_pct": {
+  "value": "+49%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month +6"
+ },
+ "ms_p7": {
+  "value": "165",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month +7"
+ },
+ "ms_p7_n": {
+  "value": "21",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_p7_pct": {
+  "value": "+65%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month +7"
+ },
+ "ms_p9": {
+  "value": "169",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median index at month +9"
+ },
+ "ms_p9_n": {
+  "value": "11",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": ""
+ },
+ "ms_p9_pct": {
+  "value": "+69%",
+  "source": "23_monthly_series.py → data/monthly_series.csv",
+  "caveat": "median % change vs own pre-adoption average, month +9"
+ },
+ "vol_lines_cw_before": {
+  "value": "293",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_lines_cw_after": {
+  "value": "424",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_lines_cw_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_lines_cw_med": {
+  "value": "+71%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_lines_cw_ci": {
+  "value": "+26% to +116%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_lines_cw_rose": {
+  "value": "23",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_lines_cw_fell": {
+  "value": "7",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_lines_cw_p": {
+  "value": "p = 0.005",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_rw90_cw_before": {
+  "value": "43",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_rw90_cw_after": {
+  "value": "47",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_rw90_cw_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_rw90_cw_med": {
+  "value": "+29%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_rw90_cw_ci": {
+  "value": "−13% to +78%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_rw90_cw_rose": {
+  "value": "19",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_rw90_cw_fell": {
+  "value": "11",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_rw90_cw_p": {
+  "value": "p = 0.20",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_surv90_cw_before": {
+  "value": "251",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_surv90_cw_after": {
+  "value": "369",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_surv90_cw_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_surv90_cw_med": {
+  "value": "+75%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_surv90_cw_ci": {
+  "value": "+33% to +130%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_surv90_cw_rose": {
+  "value": "23",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_surv90_cw_fell": {
+  "value": "7",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_surv90_cw_p": {
+  "value": "p = 0.005",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_cw_before": {
+  "value": "0.58",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_bug_cw_after": {
+  "value": "0.70",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_bug_cw_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_bug_cw_med": {
+  "value": "+14%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_cw_ci": {
+  "value": "−5% to +36%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_cw_rose": {
+  "value": "19",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_cw_fell": {
+  "value": "11",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_cw_p": {
+  "value": "p = 0.20",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_cw_before": {
+  "value": "0.15",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_test_cw_after": {
+  "value": "0.33",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_test_cw_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_test_cw_med": {
+  "value": "+107%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_cw_ci": {
+  "value": "+62% to +176%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_cw_rose": {
+  "value": "29",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_cw_fell": {
+  "value": "1",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_cw_p": {
+  "value": "p < 0.001",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_kloc_before": {
+  "value": "0.48",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_test_kloc_after": {
+  "value": "0.75",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_test_kloc_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_test_kloc_med": {
+  "value": "+34%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_kloc_ci": {
+  "value": "−11% to +85%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_kloc_rose": {
+  "value": "17",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_kloc_fell": {
+  "value": "13",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_kloc_p": {
+  "value": "p = 0.58",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_commits_mo_before": {
+  "value": "131",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_commits_mo_after": {
+  "value": "155",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_commits_mo_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_commits_mo_med": {
+  "value": "+21%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_commits_mo_ci": {
+  "value": "+1% to +48%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_commits_mo_rose": {
+  "value": "20",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_commits_mo_fell": {
+  "value": "10",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_commits_mo_p": {
+  "value": "p = 0.10",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_mo_before": {
+  "value": "16",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_bug_mo_after": {
+  "value": "28",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_bug_mo_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_bug_mo_med": {
+  "value": "+6%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_mo_ci": {
+  "value": "−8% to +50%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_mo_rose": {
+  "value": "18",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_mo_fell": {
+  "value": "12",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_bug_mo_p": {
+  "value": "p = 0.36",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_mo_before": {
+  "value": "5",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level before adoption"
+ },
+ "vol_test_mo_after": {
+  "value": "9",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median level after adoption"
+ },
+ "vol_test_mo_n": {
+  "value": "30",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "per-codebase % change, before vs after"
+ },
+ "vol_test_mo_med": {
+  "value": "+114%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_mo_ci": {
+  "value": "+49% to +230%",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_mo_rose": {
+  "value": "26",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_mo_fell": {
+  "value": "4",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_mo_p": {
+  "value": "p < 0.001",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_test_lines_per_before": {
+  "value": "2,075",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "production lines committed per test-change commit (1,000 / median per KLOC)"
+ },
+ "vol_test_lines_per_after": {
+  "value": "1,337",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": ""
+ },
+ "vol_ai_fu": {
+  "value": "0.88",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median follow-ups per change, AI-attributed commits, after adoption"
+ },
+ "vol_un_fu": {
+  "value": "0.54",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median follow-ups per change, unattributed commits, after adoption"
+ },
+ "vol_ai_lines": {
+  "value": "48",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median production lines per AI-attributed commit"
+ },
+ "vol_un_lines": {
+  "value": "34",
+  "source": "24_volumes.py → data/volumes.json (per codebase: data/volumes.csv)",
+  "caveat": "median production lines per unattributed commit"
+ },
+ "mr_ratio": {
+  "value": "4.9",
+  "source": "17_monthly_rate.py → data/monthly_rate.json",
+  "caveat": "ratio of median monthly growth after vs before adoption; the before rate and the step-up are not statistically clear"
+ },
+ "m_arm": {
+  "value": "20",
+  "source": "kerno-audit-benchmark.pdf p.3–5 (n ≥ 20 per arm)",
+  "caveat": ""
+ },
+ "m_events": {
+  "value": "5",
+  "source": "kerno-audit-benchmark.pdf p.3–5 (≥ 5 events in the numerator)",
+  "caveat": ""
+ },
+ "m_effect": {
+  "value": "5%",
+  "source": "kerno-audit-benchmark.pdf p.3–5 (minimum movement)",
+  "caveat": ""
+ },
+ "m_alpha": {
+  "value": "0.05",
+  "source": "kerno-audit-benchmark.pdf p.3–5 (significance level)",
+  "caveat": ""
+ },
+ "m_thresh": {
+  "value": "25%",
+  "source": "kerno-audit-benchmark.pdf p.3–5 (absolute adoption threshold)",
+  "caveat": ""
+ },
+ "m_trend_months": {
+  "value": "8",
+  "source": "kerno-audit-benchmark.pdf p.3–5 (≥ 8 qualifying months to fit a trend)",
+  "caveat": ""
+ },
+ "m_trend_obs": {
+  "value": "5",
+  "source": "kerno-audit-benchmark.pdf p.3–5 (≥ 5 observations per month)",
+  "caveat": ""
+ },
+ "m_window_rw": {
+  "value": "30 and 90 days",
+  "source": "before_after.csv metric names",
+  "caveat": ""
+ },
+ "m_boot": {
+  "value": "10,000",
+  "source": "03_analysis.py / 04_forecast.py (B = 10000)",
+  "caveat": ""
+ },
+ "m_sens_commits": {
+  "value": "200",
+  "source": "03_analysis.py sensitivity rule",
+  "caveat": ""
+ },
+ "m_metrics": {
+  "value": "11",
+  "source": "before_after.csv: distinct metrics",
+  "caveat": ""
+ },
+ "m_sweep_metrics": {
+  "value": "5",
+  "source": "Adoption date sweep.pdf p.1",
+  "caveat": ""
+ },
+ "m_horizon": {
+  "value": "12 and 24 months",
+  "source": "04_forecast.py HORIZONS",
+  "caveat": ""
+ },
+ "x_cc_low": {
+  "value": "1–10",
+  "source": "Software Engineering Institute risk categories, as published in Klocwork documentation (help.klocwork.com, McCabe Cyclomatic Complexity): low risk",
+  "caveat": ""
+ },
+ "x_cc_mod": {
+  "value": "11–20",
+  "source": "SEI categories (Klocwork documentation): moderate risk",
+  "caveat": ""
+ },
+ "x_cc_high": {
+  "value": "21–50",
+  "source": "SEI categories (Klocwork documentation): high risk",
+  "caveat": ""
+ },
+ "x_cc_untest": {
+  "value": "51",
+  "source": "SEI categories (Klocwork documentation): '51 and greater: an untestable program of very high risk'",
+  "caveat": ""
+ },
+ "x_ms_systems": {
+  "value": "five",
+  "source": "Nagappan, Ball, Zeller, 'Mining metrics to predict component failures', ICSE 2006 (MSR-TR-2005-149): five Microsoft systems",
+  "caveat": ""
+ },
+ "x_mccabe": {
+  "value": "10",
+  "source": "McCabe, T. J. (1976). A Complexity Measure. IEEE Transactions on Software Engineering, SE-2(4)",
+  "caveat": ""
+ }
+}
